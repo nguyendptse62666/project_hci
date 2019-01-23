@@ -33,7 +33,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="N:\StudyDrive\CN_7\HCI\ChildStudyLogo.png" />
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="foregroundImage" value="D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\res\drawable\ChildStudyLogo.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
