@@ -4,46 +4,140 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".ChooseTopicActivity"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/iciel_soup"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+             <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/nabila"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+             <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/pony"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+            <!--android:textStyle="" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/fs_ahkio_regular"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+            <!--android:textStyle="" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/montserrat_semi_bold"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+            <!--android:textStyle="" />-->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/icielpanton_light"
             android:text="Xin chào "
-            />
+            android:textSize="30dp"
+            android:textStyle="" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/icielpanton_ightitalic"
+            android:text="Xin chào "
+            android:textSize="30dp"
+            android:textStyle="" />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/cucho"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+             />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/bio_sans_regular"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+             <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/leosler"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp"-->
+            <!--android:textStyle="" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cupcake"
+            android:text="Xin chào Viet"
+            android:textSize="30dp" />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/iciel_kermel"-->
+            <!--android:text="Xin chào "-->
+            <!--android:textSize="30dp" />-->
+
+        <TextView
             android:id="@+id/txtName"
-            />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vui lòng chọn chủ đề để bắt đầu!"/>
+        android:text="Vui lòng chọn chủ đề để bắt đầu!" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="250dp"
-        android:height="100dp"
         android:layout_marginBottom="20dp"
-        android:text="Con vật (Animals)"
-        android:onClick="clickToChooseAnimalTopic"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:width="250dp"
         android:height="100dp"
-        android:layout_marginBottom="20dp"/>
+        android:onClick="clickToChooseAnimalTopic"
+        android:text="Con vật (Animals)" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:width="250dp"
+        android:height="100dp" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="250dp"
-        android:height="100dp"/>
+        android:height="100dp" />
 </LinearLayout>
