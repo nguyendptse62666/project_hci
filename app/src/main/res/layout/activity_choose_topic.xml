@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".ChooseTopicActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/blue_cloud_1">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <!--<TextView-->
             <!--android:layout_width="wrap_content"-->
@@ -54,21 +55,6 @@
             <!--android:textSize="30dp"-->
             <!--android:textStyle="" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/icielpanton_light"
-            android:text="Xin chào "
-            android:textSize="30dp"
-            android:textStyle="" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/icielpanton_ightitalic"
-            android:text="Xin chào "
-            android:textSize="30dp"
-            android:textStyle="" />
 
         <!--<TextView-->
             <!--android:layout_width="wrap_content"-->
@@ -98,26 +84,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cupcake"
-            android:text="Xin chào Viet"
+            android:text="Xin chào"
             android:textSize="30dp" />
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/iciel_kermel"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp" />-->
 
         <TextView
             android:id="@+id/txtName"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cupcake"
+            android:textSize="40dp"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vui lòng chọn chủ đề để bắt đầu!" />
+        android:text="Vui lòng chọn chủ đề để bắt đầu!"
+        android:fontFamily="@font/icielpanton_light"
+        android:textSize="20dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -126,18 +109,25 @@
         android:width="250dp"
         android:height="100dp"
         android:onClick="clickToChooseAnimalTopic"
-        android:text="Con vật (Animals)" />
+        android:text="Con vật (Animals)"
+        android:fontFamily="@font/montserrat_semi_bold"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:width="250dp"
-        android:height="100dp" />
+        android:height="100dp"
+        android:onClick="clickToChooseThingTopic"
+        android:text="Đồ vật (Things)"
+        android:fontFamily="@font/montserrat_semi_bold"/>/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="250dp"
-        android:height="100dp" />
+        android:height="100dp"
+        android:onClick="clickToChooseNatureTopic"
+        android:text="Thiên nhiên (Nature)"
+        android:fontFamily="@font/montserrat_semi_bold"/>/>
 </LinearLayout>

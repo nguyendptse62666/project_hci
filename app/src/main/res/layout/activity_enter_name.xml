@@ -6,20 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".EnterNameActivity"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/galaxy"
+    >
 
     <TextView
+        android:textColor="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chào mừng bạn đến với thế giói Child Study"/>
+        android:gravity="center"
+        android:text="Chào mừng em đến với thế giới của Child Study"/>
     <TextView
+        android:textColor="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Xin mời nhập tên "/>
+        android:gravity="center"
+        android:text="Xin mời nhập tên của em"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtName"
+        android:background="@color/colorWhite"
         android:hint="Nhập tên vào đây"/>
     <Button
         android:layout_width="wrap_content"
