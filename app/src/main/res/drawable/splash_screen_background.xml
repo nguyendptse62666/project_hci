@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
 
-<item android:drawable="@color/colorLightYellow"/>
+<item android:drawable="@drawable/galaxy"/>
 
 <!-- Set the Background Image-->
-<item android:gravity="center" android:width="720px" android:height="1280px">
+<item android:gravity="fill" android:width="720px" android:height="1280px">
     <bitmap
         android:gravity="center_horizontal|center_vertical"
-        android:src="@drawable/splash_screen"/>
+        android:src="@drawable/splash_screen"
+        />
 </item>
 </layer-list>

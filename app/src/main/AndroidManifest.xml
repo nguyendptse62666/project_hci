@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".EnterNameActivity" />
-        <activity android:name=".ChooseTopicActivity"></activity>
+        <activity android:name=".ChooseTopicActivity" />
+        <activity android:name=".PlayActivity" />
+        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>
