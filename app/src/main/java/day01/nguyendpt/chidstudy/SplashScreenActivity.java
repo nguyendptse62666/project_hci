@@ -18,24 +18,22 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void run() {
                 try{
                     Thread.sleep(2000);
-                    SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);
-                    String playerName = sharedPreferences.getString("edtPlayerName","");
-                    if(playerName == null || playerName.equalsIgnoreCase("")){
-                        Intent intent = new Intent(getApplicationContext(), EnterNameActivity.class);
-                        startActivity(intent);
-                        finish();
-                    } else {
-                        Intent intent = new Intent(getApplicationContext(), ChooseTopicActivity.class);
-                        intent.putExtra("playerName", playerName);
-                        startActivity(intent);
-                        finish();
-                    }
-
                 } catch (Exception e){
                     e.printStackTrace();
                 }
             }
         }).start();
-
+        SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);
+        String playerName = sharedPreferences.getString("edtPlayerName","");
+        if(playerName == null || playerName.equalsIgnoreCase("")){
+            Intent intent = new Intent(getApplicationContext(), EnterNameActivity.class);
+            startActivity(intent);
+            finish();
+        } else {
+            Intent intent = new Intent(getApplicationContext(), ChooseTopicActivity.class);
+            intent.putExtra("playerName", playerName);
+            startActivity(intent);
+            finish();
+        }
     }
 }
