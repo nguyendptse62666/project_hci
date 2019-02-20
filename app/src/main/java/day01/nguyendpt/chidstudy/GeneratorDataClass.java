@@ -50,6 +50,21 @@ public class GeneratorDataClass {
         list.add(new ObjectPlay(category, "Con mèo", "Cat", R.drawable.animal_cat, answer));
         list.add(new ObjectPlay(category, "Con cá", "Fish", R.drawable.animal_fish, answer));
         list.add(new ObjectPlay(category, "Con gấu", "Bear", R.drawable.animal_bear, answer));
+        answer = new String[]{"Whale","Shark","Mouse","Tiger"};
+        list.add(new ObjectPlay(category, "Cá voi","Whale", R.drawable.animal_whale, answer));
+        list.add(new ObjectPlay(category, "Cá mập","Shark", R.drawable.animal_shark, answer));
+        list.add(new ObjectPlay(category, "Con hổ","Tiger", R.drawable.animal_tiger, answer));
+        list.add(new ObjectPlay(category, "Con chuột","Mouse", R.drawable.animal_mouse, answer));
+        answer = new String[]{"Octopus","Monkey","Buffalo","Elephant"};
+        list.add(new ObjectPlay(category, "Con bạch tuột","Octopus", R.drawable.animal_octopus, answer));
+        list.add(new ObjectPlay(category, "Con khỉ","Monkey", R.drawable.animal_monkey, answer));
+        list.add(new ObjectPlay(category, "Con trâu","Buffalo", R.drawable.animal_buffalo, answer));
+        list.add(new ObjectPlay(category, "Con voi","Elephant", R.drawable.animal_elephant, answer));
+        answer = new String[]{"Zebra","Horse","Lion","Bird"};
+        list.add(new ObjectPlay(category, "Con ngựa vằn","Zebra", R.drawable.animal_zebra, answer));
+        list.add(new ObjectPlay(category, "Con ngựa","Horse", R.drawable.animal_horse, answer));
+        list.add(new ObjectPlay(category, "Con sư tử","Lion", R.drawable.animal_lion, answer));
+        list.add(new ObjectPlay(category, "Con chim","Bird", R.drawable.animal_bird, answer));
         return list;
     }
 
@@ -61,6 +76,7 @@ public class GeneratorDataClass {
         list.add(new ObjectPlay(category, "Cái bàn", "Table", R.drawable.thing_table, answer));
         list.add(new ObjectPlay(category, "Cái giường", "Bed", R.drawable.thing_bed, answer));
         list.add(new ObjectPlay(category, "Cánh cửa", "Door", R.drawable.thing_door, answer));
+//        String answer[] = {}
         return list;
     }
 
@@ -74,6 +90,4 @@ public class GeneratorDataClass {
         list.add(new ObjectPlay(category, "Ngôi sao", "Star", R.drawable.nature_star, answer));
         return list;
     }
-
-
 }

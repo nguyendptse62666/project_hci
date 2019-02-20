@@ -1,6 +1,10 @@
 package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
+import android.media.AudioAttributes;
+import android.media.AudioManager;
+import android.media.SoundPool;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +23,9 @@ public class PlayActivity extends AppCompatActivity {
     private TextView txtCategory;
     private ImageView imageView;
     private Button button1, button2, button3, button4;
+    private SoundPool soundPool;
+    private int ding, wrongAns, rightAns;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -52,6 +59,13 @@ public class PlayActivity extends AppCompatActivity {
         button4 = findViewById(R.id.btnAnswer4);
         button4.setText(objectPlay.getAnswers()[3]);
 
+        soundPool = SoundPoolGenerator.initializeSoundPool();
+
+        ding = soundPool.load(this, R.raw.ding,1);
+        rightAns = soundPool.load(this, R.raw.right_answer,1);
+        wrongAns = soundPool.load(this, R.raw.wrong_answer,1);
+
+        soundPool.play(ding, 1,1,0,0,1);
         controlTopic(topic);
     }
 
@@ -81,6 +95,7 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitRightAnswer(){
+        soundPool.play(rightAns,1,1,0,0,1);
         Toast.makeText(this, "Right", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
@@ -91,6 +106,7 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitWrongAnswer(){
+        soundPool.play(wrongAns,1,1,0,0,1);
         Toast.makeText(this, "Wrong", Toast.LENGTH_SHORT).show();
     }
 }
