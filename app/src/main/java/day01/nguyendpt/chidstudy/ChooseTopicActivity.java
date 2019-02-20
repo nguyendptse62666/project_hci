@@ -1,6 +1,7 @@
 package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,10 +15,11 @@ public class ChooseTopicActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_topic);
+
         TextView txtName= findViewById(R.id.txtName);
-        Intent intent = this.getIntent();
-        String name= intent.getStringExtra("playerName");
-        txtName.setText(name);
+        SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);
+        String playerName = sharedPreferences.getString("edtPlayerName","");
+        txtName.setText(playerName);
     }
 
     public void clickToChooseAnimalTopic(View view) {

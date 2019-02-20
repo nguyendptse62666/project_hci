@@ -23,7 +23,7 @@ public class EnterNameActivity extends AppCompatActivity {
         EditText txtName= findViewById(R.id.edtName);
         String name= txtName.getText().toString();
         if(name.trim().length() <= 0){
-            Toast.makeText(getApplicationContext(), "Vui lòng nhập tên!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Bạn vui lòng nhập tên nhé!", Toast.LENGTH_LONG).show();
             return;
         } else {
             SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);
@@ -31,7 +31,6 @@ public class EnterNameActivity extends AppCompatActivity {
             editor.putString("edtPlayerName", name);
             editor.commit();
             Intent intent = new Intent(this, ChooseTopicActivity.class);
-            intent.putExtra("playerName", name);
             startActivity(intent);
             finish();
         }
