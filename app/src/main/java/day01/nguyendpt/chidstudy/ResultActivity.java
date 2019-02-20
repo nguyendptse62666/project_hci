@@ -55,6 +55,8 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     public void onInit(int status) {
         if(status != TextToSpeech.ERROR){
             tts.setLanguage(Locale.ENGLISH);
+//            tts.setPitch(0.7f);
+            tts.setSpeechRate(0.5f);
         }
     }
 
