@@ -44,7 +44,8 @@
         android:background="@drawable/button_shape_animal"
         android:onClick="clickToChooseAnimalTopic"
         android:text="Con vật (Animals)"
-        android:fontFamily="@font/montserrat_semi_bold"/>
+        android:fontFamily="@font/montserrat_semi_bold"
+        />
 
     <Button
         android:layout_width="wrap_content"

@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -20,6 +21,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     private Button buttonSpeech;
     private ImageView imageView;
     private static TextToSpeech tts;
+    private int backgroundResource;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +30,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         Intent intent = getIntent();
         objectPlay = (ObjectPlay) intent.getSerializableExtra("objectPlay");
         recentName = intent.getStringExtra("recentName");
-
+        backgroundResource = intent.getIntExtra("backgroundResource", R.drawable.blue_cloud_1);
         txtCategory = findViewById(R.id.txtCategory);
         txtCategory.setText("Category: "+objectPlay.getCategory());
 
@@ -42,6 +44,9 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         txtVietName.setText(objectPlay.getVietName());
 
         tts = new TextToSpeech(this, this);
+
+        LinearLayout linearLayout = findViewById(R.id.layoutResult);
+        linearLayout.setBackgroundResource(backgroundResource);
     }
 
     @Override

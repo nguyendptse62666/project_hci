@@ -9,6 +9,7 @@ public class ObjectPlay implements Serializable {
     private String vietName;
     private String engName;
     private Integer image;
+    private String note;
     private String[] answers;
 
     public ObjectPlay(){
@@ -21,6 +22,16 @@ public class ObjectPlay implements Serializable {
         this.engName = engName;
         this.image = image;
         this.answers = answers;
+        this.note = null;
+    }
+
+    public ObjectPlay(String category, String vietName, String engName, Integer image, String[] answers, String note){
+        this.category = category;
+        this.vietName = vietName;
+        this.engName = engName;
+        this.image = image;
+        this.answers = answers;
+        this.note = note;
     }
 
     public String getCategory() {
@@ -61,5 +72,13 @@ public class ObjectPlay implements Serializable {
 
     public void setAnswers(String[] answers) {
         this.answers = answers;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
     }
 }

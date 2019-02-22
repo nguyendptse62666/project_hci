@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ResultActivity"
     android:orientation="vertical"
-    android:background="@drawable/result_background">
+    android:id="@+id/layoutResult">
 
     <TextView
         android:layout_marginTop="20px"

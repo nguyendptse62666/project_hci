@@ -21,7 +21,7 @@ public class PlayActivity extends AppCompatActivity {
     private ImageView imageView;
     private Button button1, button2, button3, button4;
     private SoundPool soundPool;
-    private int ding, wrongAns, rightAns;
+    private int ding, wrongAns, rightAns, backgroundResource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,22 +63,34 @@ public class PlayActivity extends AppCompatActivity {
         wrongAns = soundPool.load(this, R.raw.wrong_answer,1);
 
         soundPool.play(ding, 1,1,0,0,1);
-        controlTopic(topic);
+        controlTopic(topic, objectPlay);
     }
 
-    public void controlTopic(String topic){
-        LinearLayout linearLayout = findViewById(R.id.layoutPlay);
-        switch (topic){
-            case "animal":
-                linearLayout.setBackgroundResource(R.drawable.animal_background);
-                break;
-            case "thing":
-                linearLayout.setBackgroundResource(R.drawable.thing_background);
-                break;
-            case "nature":
-                linearLayout.setBackgroundResource(R.drawable.blue_cloud_1);
-                break;
+    public void controlTopic(String topic, ObjectPlay objectPlay){
+
+        if( objectPlay.getNote() != null ){
+            if(objectPlay.getNote().equalsIgnoreCase("underwater")){
+                backgroundResource = R.drawable.underwater_background ;
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("darksky")){
+                backgroundResource = R.drawable.dark_sky_background;
+            }
+        } else {
+            switch (topic){
+                case "animal":
+                    backgroundResource = R.drawable.animal_background;
+                    break;
+                case "thing":
+                    backgroundResource = R.drawable.thing_background;
+                    break;
+                case "nature":
+                    backgroundResource = R.drawable.blue_cloud_1;
+                    break;
+            }
         }
+        LinearLayout linearLayout = findViewById(R.id.layoutPlay);
+        linearLayout.setBackgroundResource(backgroundResource);
+
     }
 
     public void clickToSubmitAnswer(View view) {
@@ -97,6 +109,7 @@ public class PlayActivity extends AppCompatActivity {
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
         recentName = objectPlay.getEngName();
+        intent.putExtra("backgroundResource", backgroundResource);
         intent.putExtra("recentName", recentName);
         startActivity(intent);
         finish();

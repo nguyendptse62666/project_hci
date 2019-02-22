@@ -48,15 +48,15 @@ public class GeneratorDataClass {
         String answer[] = {"Cat","Dog","Bear","Fish"};
         list.add(new ObjectPlay(category, "Con chó", "Dog", R.drawable.animal_dog, answer));
         list.add(new ObjectPlay(category, "Con mèo", "Cat", R.drawable.animal_cat, answer));
-        list.add(new ObjectPlay(category, "Con cá", "Fish", R.drawable.animal_fish, answer));
+        list.add(new ObjectPlay(category, "Con cá", "Fish", R.drawable.animal_fish, answer,"underwater"));
         list.add(new ObjectPlay(category, "Con gấu", "Bear", R.drawable.animal_bear, answer));
         answer = new String[]{"Whale","Shark","Mouse","Tiger"};
-        list.add(new ObjectPlay(category, "Cá voi","Whale", R.drawable.animal_whale, answer));
-        list.add(new ObjectPlay(category, "Cá mập","Shark", R.drawable.animal_shark, answer));
+        list.add(new ObjectPlay(category, "Cá voi","Whale", R.drawable.animal_whale, answer,"underwater"));
+        list.add(new ObjectPlay(category, "Cá mập","Shark", R.drawable.animal_shark, answer,"underwater"));
         list.add(new ObjectPlay(category, "Con hổ","Tiger", R.drawable.animal_tiger, answer));
         list.add(new ObjectPlay(category, "Con chuột","Mouse", R.drawable.animal_mouse, answer));
         answer = new String[]{"Octopus","Monkey","Buffalo","Elephant"};
-        list.add(new ObjectPlay(category, "Con bạch tuột","Octopus", R.drawable.animal_octopus, answer));
+        list.add(new ObjectPlay(category, "Con bạch tuột","Octopus", R.drawable.animal_octopus, answer,"underwater"));
         list.add(new ObjectPlay(category, "Con khỉ","Monkey", R.drawable.animal_monkey, answer));
         list.add(new ObjectPlay(category, "Con trâu","Buffalo", R.drawable.animal_buffalo, answer));
         list.add(new ObjectPlay(category, "Con voi","Elephant", R.drawable.animal_elephant, answer));
@@ -76,7 +76,25 @@ public class GeneratorDataClass {
         list.add(new ObjectPlay(category, "Cái bàn", "Table", R.drawable.thing_table, answer));
         list.add(new ObjectPlay(category, "Cái giường", "Bed", R.drawable.thing_bed, answer));
         list.add(new ObjectPlay(category, "Cánh cửa", "Door", R.drawable.thing_door, answer));
-//        String answer[] = {}
+
+        answer = new String[]{"Ruler","Pencil","Book","Eraser"};
+        list.add(new ObjectPlay(category, "Cái thước", "Ruler", R.drawable.thing_ruler, answer));
+        list.add(new ObjectPlay(category, "Bút chì", "Pencil", R.drawable.thing_pencil, answer));
+        list.add(new ObjectPlay(category, "Quyển sách", "Book", R.drawable.thing_book, answer));
+        list.add(new ObjectPlay(category, "Cục tẩy", "Eraser", R.drawable.thing_eraser, answer));
+
+        answer = new String[]{"Bike","Motorbike","Car","Train"};
+        list.add(new ObjectPlay(category, "Xe đạp", "Bike", R.drawable.thing_bike, answer));
+        list.add(new ObjectPlay(category, "Xe máy", "Motorbike", R.drawable.thing_motorbike, answer));
+        list.add(new ObjectPlay(category, "Xe hơi", "Car", R.drawable.thing_car, answer));
+        list.add(new ObjectPlay(category, "Tàu hỏa", "Train", R.drawable.thing_train, answer));
+
+        answer = new String[]{"Computer","Candy","Ball","Window"};
+        list.add(new ObjectPlay(category, "Máy tính", "Computer", R.drawable.thing_computer, answer));
+        list.add(new ObjectPlay(category, "Kẹo", "Candy", R.drawable.thing_candy, answer));
+        list.add(new ObjectPlay(category, "Cái bóng", "Ball", R.drawable.thing_ball, answer));
+        list.add(new ObjectPlay(category, "Của sổ", "Window", R.drawable.thing_window, answer));
+
         return list;
     }
 
@@ -85,9 +103,23 @@ public class GeneratorDataClass {
         String category = "nature";
         String answer[] = {"Sun","Cloud","Moon","Star"};
         list.add(new ObjectPlay(category, "Mặt trời", "Sun", R.drawable.nature_sun, answer));
-        list.add(new ObjectPlay(category, "Mặt trăng", "Moon", R.drawable.nature_moon, answer));
+        list.add(new ObjectPlay(category, "Mặt trăng", "Moon", R.drawable.nature_moon, answer,"darksky"));
         list.add(new ObjectPlay(category, "Đám mây", "Cloud", R.drawable.nature_cloud, answer));
-        list.add(new ObjectPlay(category, "Ngôi sao", "Star", R.drawable.nature_star, answer));
+        list.add(new ObjectPlay(category, "Ngôi sao", "Star", R.drawable.nature_star, answer, "darksky"));
+
+        answer = new String[]{"Ocean","Snow","Rain","Mountain"};
+        list.add(new ObjectPlay(category, "Biển", "Ocean", R.drawable.nature_ocean, answer));
+        list.add(new ObjectPlay(category, "Tuyết", "Snow", R.drawable.nature_snow, answer));
+        list.add(new ObjectPlay(category, "Mưa", "Rain", R.drawable.nature_rain, answer));
+        list.add(new ObjectPlay(category, "Ngọn núi", "Mountain", R.drawable.nature_mountain, answer));
+
+        answer = new String[]{"Tree","Sky","Flower","Fruit"};
+        list.add(new ObjectPlay(category, "Cái cây", "Tree", R.drawable.nature_tree, answer));
+        list.add(new ObjectPlay(category, "Bầu trời", "Sky", R.drawable.nature_sky, answer));
+        list.add(new ObjectPlay(category, "Hoa", "Flower", R.drawable.nature_flower, answer));
+        list.add(new ObjectPlay(category, "Trái cây", "Fruit", R.drawable.nature_fruit, answer));
+
+
         return list;
     }
 }
