@@ -16,7 +16,7 @@
         android:id="@+id/txtCategory"
         android:fontFamily="@font/cupcake"
         android:textColor="@color/colorAccent"
-        android:textSize="20px"/>
+        android:textSize="20dp"/>
 
     <ImageView
         android:layout_width="270dp"
@@ -34,7 +34,7 @@
         android:gravity="center"
         android:fontFamily="@font/cupcake"
         android:textColor="#DE7244"
-        android:textSize="20px"
+        android:textSize="20dp"
         />
 
     <Button
