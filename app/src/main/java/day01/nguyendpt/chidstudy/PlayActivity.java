@@ -1,10 +1,7 @@
 package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
-import android.media.AudioAttributes;
-import android.media.AudioManager;
 import android.media.SoundPool;
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -73,7 +70,7 @@ public class PlayActivity extends AppCompatActivity {
         LinearLayout linearLayout = findViewById(R.id.layoutPlay);
         switch (topic){
             case "animal":
-                linearLayout.setBackgroundResource(R.drawable.natural);
+                linearLayout.setBackgroundResource(R.drawable.animal_background);
                 break;
             case "thing":
                 linearLayout.setBackgroundResource(R.drawable.thing_background);

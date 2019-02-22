@@ -15,76 +15,11 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/iciel_soup"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-             <!--/>-->
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/nabila"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-             <!--/>-->
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/pony"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-            <!--android:textStyle="" />-->
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/fs_ahkio_regular"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-            <!--android:textStyle="" />-->
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/montserrat_semi_bold"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-            <!--android:textStyle="" />-->
-
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/cucho"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-             />
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/bio_sans_regular"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-             <!--/>-->
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@font/leosler"-->
-            <!--android:text="Xin chào "-->
-            <!--android:textSize="30dp"-->
-            <!--android:textStyle="" />-->
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cupcake"
-            android:text="Xin chào"
+            android:text="Xin chào, "
             android:textSize="30dp" />
 
         <TextView
@@ -106,27 +41,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:width="250dp"
-        android:height="100dp"
+        android:background="@drawable/button_shape_animal"
         android:onClick="clickToChooseAnimalTopic"
-        android:text="Con vật (Animal)"
+        android:text="Con vật (Animals)"
         android:fontFamily="@font/montserrat_semi_bold"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:width="250dp"
-        android:height="100dp"
+        android:background="@drawable/button_shape_things"
         android:onClick="clickToChooseThingTopic"
-        android:text="Đồ vật (Thing)"
+        android:text="Đồ vật (Things)"
         android:fontFamily="@font/montserrat_semi_bold"/>/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="250dp"
-        android:height="100dp"
+        android:background="@drawable/button_shape_nature"
         android:onClick="clickToChooseNatureTopic"
         android:text="Thiên nhiên (Nature)"
         android:fontFamily="@font/montserrat_semi_bold"/>/>
