@@ -45,6 +45,8 @@
         android:onClick="clickToChooseAnimalTopic"
         android:text="Con vật (Animals)"
         android:fontFamily="@font/montserrat_semi_bold"
+        android:drawableRight="@drawable/button_icon_dog"
+        android:paddingRight="15dp"
         />
 
     <Button
@@ -54,7 +56,9 @@
         android:background="@drawable/button_shape_things"
         android:onClick="clickToChooseThingTopic"
         android:text="Đồ vật (Things)"
-        android:fontFamily="@font/montserrat_semi_bold"/>/>
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:drawableRight="@drawable/button_icon_ball"
+        android:paddingRight="15dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -62,5 +66,7 @@
         android:background="@drawable/button_shape_nature"
         android:onClick="clickToChooseNatureTopic"
         android:text="Thiên nhiên (Nature)"
-        android:fontFamily="@font/montserrat_semi_bold"/>/>
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:drawableRight="@drawable/button_icon_sun"
+        android:paddingRight="15dp"/>
 </LinearLayout>

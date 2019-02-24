@@ -44,7 +44,9 @@
         android:id="@+id/btnResult"
         android:onClick="clickToSpeech"
         android:textColor="#DE7244"
-        android:fontFamily="@font/cupcake"/>
+        android:fontFamily="@font/cupcake"
+        android:drawableRight="@drawable/button_icon_speaker"
+        android:paddingRight="15dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
