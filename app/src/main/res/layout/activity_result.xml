@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ResultActivity"
     android:orientation="vertical"
-    android:id="@+id/layoutResult">
+    android:id="@+id/layoutResult"
+    >
 
     <TextView
         android:layout_marginTop="20px"
@@ -19,8 +20,8 @@
         android:textSize="20dp"/>
 
     <ImageView
-        android:layout_width="270dp"
-        android:layout_height="270dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
         android:layout_marginTop="15dp"
         android:layout_gravity="center"
         android:id="@+id/imageQuestion"
@@ -32,21 +33,31 @@
         android:layout_height="wrap_content"
         android:id="@+id/txtVietName"
         android:gravity="center"
+        android:shadowColor="@color/colorWhite"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0.1"
         android:fontFamily="@font/cupcake"
-        android:textColor="#DE7244"
-        android:textSize="20dp"
+        android:textColor="#A158EA"
+        android:layout_gravity="center"
+        android:textSize="30dp"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_gravity="center"
+        android:width="200dp"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:paddingLeft="45dp"
         android:layout_height="wrap_content"
         android:id="@+id/btnResult"
         android:onClick="clickToSpeech"
         android:textColor="#DE7244"
         android:fontFamily="@font/cupcake"
         android:drawableRight="@drawable/button_icon_speaker"
-        android:paddingRight="15dp"/>
+        android:background="@drawable/button_shape_speak"
+        android:paddingRight="20dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,12 +69,17 @@
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:text="Tiếp tục"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/cupcake"
+            android:background="@drawable/button_shape_answers"
             android:onClick="clickToContinue"/>
 
         <Button
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:text="Chọn chủ đề khác"
+            android:fontFamily="@font/cupcake"
+            android:background="@drawable/button_shape_answers"
             android:onClick="clickToChooseNewTopic"/>
     </LinearLayout>
 </LinearLayout>
