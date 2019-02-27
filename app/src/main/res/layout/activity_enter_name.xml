@@ -11,27 +11,38 @@
     >
 
     <TextView
-        android:textColor="@color/colorWhite"
+        android:textColor="@android:color/holo_orange_dark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/cupcake"
+        android:layout_margin="10dp"
         android:text="Chào mừng em đến với thế giới của Child Study"/>
     <TextView
-        android:textColor="@color/colorWhite"
+        android:textColor="@android:color/holo_green_dark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:fontFamily="@font/cupcake"
         android:gravity="center"
+        android:layout_margin="10dp"
         android:text="Xin mời nhập tên của em"/>
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:id="@+id/edtName"
-        android:background="@color/colorWhite"
-        android:hint="Nhập tên vào đây"/>
+        android:paddingLeft="15dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/cupcake"
+        android:textSize="30dp"
+        android:background="@drawable/shape_input_name"
+        android:hint="Nhập tên vào đây" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hoàn thành"
         android:layout_gravity="center"
-        android:onClick="clickToEnterName"/>
+        android:onClick="clickToEnterName"
+        android:background="@drawable/button_shape_answers"/>
 </LinearLayout>
