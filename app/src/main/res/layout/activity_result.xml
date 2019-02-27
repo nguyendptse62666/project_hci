@@ -66,19 +66,19 @@
         android:layout_gravity="center"
         android:gravity="center">
         <Button
-            android:layout_width="150dp"
-            android:layout_height="60dp"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
             android:text="Tiếp tục"
             android:layout_margin="10dp"
-            android:fontFamily="@font/cupcake"
+            android:fontFamily="@font/montserrat_semi_bold"
             android:background="@drawable/button_shape_answers"
             android:onClick="clickToContinue"/>
 
         <Button
-            android:layout_width="150dp"
-            android:layout_height="60dp"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
             android:text="Chọn chủ đề khác"
-            android:fontFamily="@font/cupcake"
+            android:fontFamily="@font/montserrat_semi_bold"
             android:background="@drawable/button_shape_answers"
             android:onClick="clickToChooseNewTopic"/>
     </LinearLayout>

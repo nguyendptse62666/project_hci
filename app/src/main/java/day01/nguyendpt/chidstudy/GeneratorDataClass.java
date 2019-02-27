@@ -78,16 +78,16 @@ public class GeneratorDataClass {
         list.add(new ObjectPlay(category, "Cánh cửa", "Door", R.drawable.thing_door, answer));
 
         answer = new String[]{"Ruler","Pencil","Book","Eraser"};
-        list.add(new ObjectPlay(category, "Cái thước", "Ruler", R.drawable.thing_ruler, answer));
-        list.add(new ObjectPlay(category, "Bút chì", "Pencil", R.drawable.thing_pencil, answer));
-        list.add(new ObjectPlay(category, "Quyển sách", "Book", R.drawable.thing_book, answer));
-        list.add(new ObjectPlay(category, "Cục tẩy", "Eraser", R.drawable.thing_eraser, answer));
+        list.add(new ObjectPlay(category, "Cái thước", "Ruler", R.drawable.thing_ruler, answer, "school"));
+        list.add(new ObjectPlay(category, "Bút chì", "Pencil", R.drawable.thing_pencil, answer, "school"));
+        list.add(new ObjectPlay(category, "Quyển sách", "Book", R.drawable.thing_book, answer,"school"));
+        list.add(new ObjectPlay(category, "Cục tẩy", "Eraser", R.drawable.thing_eraser, answer,"school"));
 
         answer = new String[]{"Bike","Motorbike","Car","Train"};
-        list.add(new ObjectPlay(category, "Xe đạp", "Bike", R.drawable.thing_bike, answer));
-        list.add(new ObjectPlay(category, "Xe máy", "Motorbike", R.drawable.thing_motorbike, answer));
-        list.add(new ObjectPlay(category, "Xe hơi", "Car", R.drawable.thing_car, answer));
-        list.add(new ObjectPlay(category, "Tàu hỏa", "Train", R.drawable.thing_train, answer));
+        list.add(new ObjectPlay(category, "Xe đạp", "Bike", R.drawable.thing_bike, answer, "traffic"));
+        list.add(new ObjectPlay(category, "Xe máy", "Motorbike", R.drawable.thing_motorbike, answer,"traffic"));
+        list.add(new ObjectPlay(category, "Xe hơi", "Car", R.drawable.thing_car, answer,"traffic"));
+        list.add(new ObjectPlay(category, "Tàu hỏa", "Train", R.drawable.thing_train, answer,"traffic"));
 
         answer = new String[]{"Computer","Candy","Ball","Window"};
         list.add(new ObjectPlay(category, "Máy tính", "Computer", R.drawable.thing_computer, answer));

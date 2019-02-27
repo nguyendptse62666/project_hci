@@ -62,8 +62,8 @@ public class PlayActivity extends AppCompatActivity {
         rightAns = soundPool.load(this, R.raw.right_answer,1);
         wrongAns = soundPool.load(this, R.raw.wrong_answer,1);
 
-        soundPool.play(ding, 1,1,0,0,1);
         controlTopic(topic, objectPlay);
+
     }
 
     public void controlTopic(String topic, ObjectPlay objectPlay){
@@ -74,6 +74,12 @@ public class PlayActivity extends AppCompatActivity {
             }
             if(objectPlay.getNote().equalsIgnoreCase("darksky")){
                 backgroundResource = R.drawable.dark_sky_background;
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("school")){
+                backgroundResource = R.drawable.class_background;
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("traffic")){
+                backgroundResource = R.drawable.road_background;
             }
         } else {
             switch (topic){
@@ -90,7 +96,7 @@ public class PlayActivity extends AppCompatActivity {
         }
         LinearLayout linearLayout = findViewById(R.id.layoutPlay);
         linearLayout.setBackgroundResource(backgroundResource);
-
+        soundPool.play(ding, 1,1,0,1,1);
     }
 
     public void clickToSubmitAnswer(View view) {
