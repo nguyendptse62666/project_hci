@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/cupcake"
             android:text="Xin chào, "
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:layout_marginRight="5dp"/>
 
         <TextView
             android:id="@+id/txtName"
@@ -34,8 +35,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Vui lòng chọn chủ đề để bắt đầu!"
-        android:fontFamily="@font/icielpanton_light"
-        android:textSize="20dp"/>
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
