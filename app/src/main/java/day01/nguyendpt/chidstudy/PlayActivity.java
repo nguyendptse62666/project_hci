@@ -44,6 +44,7 @@ public class PlayActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
 
+
         button1 = findViewById(R.id.btnAnswer1);
         button1.setText(objectPlay.getAnswers()[0]);
 
@@ -110,8 +111,8 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitRightAnswer(){
-        soundPool.play(rightAns,1,1,0,0,1);
-        Toast.makeText(this, "Right", Toast.LENGTH_SHORT).show();
+        soundPool.play(rightAns,0.5f,0.5f,0,0,1);
+
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
         recentName = objectPlay.getEngName();
@@ -122,7 +123,6 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitWrongAnswer(){
-        soundPool.play(wrongAns,1,1,0,0,1);
-        Toast.makeText(this, "Wrong", Toast.LENGTH_SHORT).show();
+        soundPool.play(wrongAns,0.5f,0.5f,0,0,1);
     }
 }

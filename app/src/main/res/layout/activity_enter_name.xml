@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:fontFamily="@font/cupcake"
+        android:fontFamily="@font/montserrat_semi_bold"
         android:layout_margin="10dp"
         android:text="Chào mừng em đến với thế giới của Child Study"/>
     <TextView
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="17dp"
-        android:fontFamily="@font/cupcake"
+        android:fontFamily="@font/montserrat_semi_bold"
         android:gravity="center"
         android:layout_margin="10dp"
         android:text="Xin mời nhập tên của em"/>
