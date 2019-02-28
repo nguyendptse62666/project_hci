@@ -9,8 +9,7 @@
     android:id="@+id/layoutPlay">
 
     <TextView
-        android:layout_marginTop="20px"
-        android:layout_marginLeft="10px"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtCategory"
@@ -23,6 +22,7 @@
             android:layout_height="270dp"
             android:id="@+id/imageQuestion"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             />
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,6 +34,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Answer 1"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
             android:layout_gravity="center"
             android:onClick="clickToSubmitAnswer"
             android:id="@+id/btnAnswer1"
@@ -41,11 +43,13 @@
             android:textColor="@android:color/holo_red_dark"
             android:fontFamily="@font/montserrat_semi_bold"
             android:background="@drawable/button_shape_answers"
-            android:layout_margin="10dp"/>
+            android:layout_margin="15dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Answer 2"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
             android:layout_gravity="center"
             android:onClick="clickToSubmitAnswer"
             android:id="@+id/btnAnswer2"
@@ -53,7 +57,7 @@
             android:textColor="@android:color/holo_red_dark"
             android:fontFamily="@font/montserrat_semi_bold"
             android:background="@drawable/button_shape_answers"
-            android:layout_margin="10dp"/>
+            android:layout_margin="15dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -65,6 +69,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Answer 3"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
             android:layout_gravity="center"
             android:onClick="clickToSubmitAnswer"
             android:id="@+id/btnAnswer3"
@@ -72,11 +78,13 @@
             android:theme="@style/ButtonAnswerTheme"
             android:background="@drawable/button_shape_answers"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:layout_margin="10dp"/>
+            android:layout_margin="15dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Answer 4"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
             android:layout_gravity="center"
             android:onClick="clickToSubmitAnswer"
             android:id="@+id/btnAnswer4"
@@ -84,7 +92,13 @@
             android:theme="@style/ButtonAnswerTheme"
             android:background="@drawable/button_shape_answers"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:layout_margin="10dp"/>
+            android:layout_margin="15dp"/>
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageResult"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
 </LinearLayout>

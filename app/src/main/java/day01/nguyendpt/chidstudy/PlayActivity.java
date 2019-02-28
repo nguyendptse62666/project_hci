@@ -21,6 +21,7 @@ public class PlayActivity extends AppCompatActivity {
     private ImageView imageView;
     private Button button1, button2, button3, button4;
     private SoundPool soundPool;
+    private ImageView imageResult;
     private int ding, wrongAns, rightAns, backgroundResource;
 
     @Override
@@ -57,6 +58,7 @@ public class PlayActivity extends AppCompatActivity {
         button4 = findViewById(R.id.btnAnswer4);
         button4.setText(objectPlay.getAnswers()[3]);
 
+        imageResult = findViewById(R.id.imageResult);
         soundPool = SoundPoolGenerator.initializeSoundPool();
 
         ding = soundPool.load(this, R.raw.ding,1);
@@ -122,7 +124,15 @@ public class PlayActivity extends AppCompatActivity {
         finish();
     }
 
+
     public void submitWrongAnswer(){
+        imageResult.setImageResource(R.drawable.icon_sad2);
         soundPool.play(wrongAns,0.5f,0.5f,0,0,1);
+        try{
+            Thread.sleep(1000);
+        } catch (Exception e){
+
+        }
+        imageResult.setImageResource(0);
     }
 }
