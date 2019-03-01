@@ -2,6 +2,7 @@ package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
 import android.media.SoundPool;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -128,5 +129,12 @@ public class PlayActivity extends AppCompatActivity {
     public void submitWrongAnswer(){
         soundPool.play(wrongAns,0.5f,0.5f,0,0,1);
         imageResult.setImageResource(R.drawable.icon_sad2);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                imageResult.setImageResource(0);
+            }
+        }, 500);
     }
 }
