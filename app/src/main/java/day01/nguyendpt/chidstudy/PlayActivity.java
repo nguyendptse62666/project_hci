@@ -114,7 +114,7 @@ public class PlayActivity extends AppCompatActivity {
 
     public void submitRightAnswer(){
         soundPool.play(rightAns,0.5f,0.5f,0,0,1);
-
+        imageResult.setImageResource(R.drawable.icon_true2);
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
         recentName = objectPlay.getEngName();
@@ -126,13 +126,7 @@ public class PlayActivity extends AppCompatActivity {
 
 
     public void submitWrongAnswer(){
-        imageResult.setImageResource(R.drawable.icon_sad2);
         soundPool.play(wrongAns,0.5f,0.5f,0,0,1);
-        try{
-            Thread.sleep(1000);
-        } catch (Exception e){
-
-        }
-        imageResult.setImageResource(0);
+        imageResult.setImageResource(R.drawable.icon_sad2);
     }
 }
