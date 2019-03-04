@@ -7,6 +7,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
+import day01.nguyendpt.chidstudy.service.PlayerService;
+
 public class SplashScreenActivity extends AppCompatActivity {
 
     @Override
@@ -24,6 +26,8 @@ public class SplashScreenActivity extends AppCompatActivity {
                 } else {
                     intent = new Intent(getApplicationContext(), ChooseTopicActivity.class);
                 }
+                Intent service = new Intent(getApplicationContext(), PlayerService.class);
+                startService(service);
                 startActivity(intent);
                 finish();
             }
