@@ -1,0 +1,1990 @@
+[
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_eraser.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_eraser.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_cloud_1.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\blue_cloud_1.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_background.JPG.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_background.JPG"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_snow.jpg.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_snow.jpg"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_icon_speaker.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_icon_speaker.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape_things.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_shape_things.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_icon_ball.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_icon_ball.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_sky.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_sky.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_screen.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\splash_screen.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_elephant.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_elephant.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wrong_kitty.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\wrong_kitty.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_chair.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_chair.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_ruler.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_ruler.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_mouse.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_mouse.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_flower.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_flower.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_tiger.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_tiger.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_sun.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_sun.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_monkey.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_monkey.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_bike.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_bike.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_icon_sun.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_icon_sun.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enter_name.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\layout\\activity_enter_name.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_galaxy.jpg.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\galaxy.jpg"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_child_study.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\child_study.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_love_kitty.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\love_kitty.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_window.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_window.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_ocean.jpg.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_ocean.jpg"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_icon_dog.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_icon_dog.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_moon.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_moon.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_mountain.jpg.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_mountain.jpg"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_right_kitty.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\right_kitty.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_buffalo.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_buffalo.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_cloud.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_cloud.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_write_kitty.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\write_kitty.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_fruit.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_fruit.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_pencil.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_pencil.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_train.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_train.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_shark.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_shark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_result.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\font_bio_sans_regular.ttf.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\font\\bio_sans_regular.ttf"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\font_fs_ashkio_light.ttf.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\font\\fs_ashkio_light.ttf"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape_speak.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_shape_speak.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_child_study_logo.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\child_study_logo.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_tree.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_tree.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sad_kitty.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\sad_kitty.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\raw_wrong_answer.mp3.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\raw\\wrong_answer.mp3"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_whale.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_whale.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_candy.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_candy.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\font_pony.ttf.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\font\\pony.ttf"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_bird.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_bird.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout-v26\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_input_name.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\shape_input_name.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_thing_table.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable-v24\\thing_table.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_fish.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_fish.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape_animal.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_shape_animal.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_ball.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_ball.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_top.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\raw_background.mp3.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\raw\\background.mp3"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_rain.jpg.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_rain.jpg"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choose_topic.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\layout\\activity_choose_topic.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape_answers.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_shape_answers.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_horse.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_horse.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_lion.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_lion.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_cat.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_cat.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_exit.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_bed.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_bed.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_car.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_car.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\font_iciel_soup.ttf.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\font\\iciel_soup.ttf"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape_nature.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\button_shape_nature.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_dog.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_dog.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_octopus.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_octopus.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_road_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\road_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\raw_right_answer.mp3.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\raw\\right_answer.mp3"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_book.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_book.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\font_cupcake.otf.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\font\\cupcake.otf"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\raw_ding.mp3.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\raw\\ding.mp3"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_small_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_motorbike.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_motorbike.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_cloud_2.jpg.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\blue_cloud_2.jpg"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nature_star.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\nature_star.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_zebra.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_zebra.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_animal_bear.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\animal_bear.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_semi_bold.ttf.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\font\\montserrat_semi_bold.ttf"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_class_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\class_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_door.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_door.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thing_computer.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\thing_computer.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dark_sky_background.jpg.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\dark_sky_background.jpg"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6e3532d70fb2ec161308229398978880\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_enter.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\font_fs_ahkio_bold.ttf.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\font\\fs_ahkio_bold.ttf"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_underwater_background.png.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\underwater_background.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_screen_background.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\drawable\\splash_screen_background.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_top.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_play.xml.flat",
+        "source": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\src\\main\\res\\layout\\activity_play.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    }
+]
