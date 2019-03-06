@@ -9,6 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -45,8 +46,8 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
         tts = new TextToSpeech(this, this);
 
-        LinearLayout linearLayout = findViewById(R.id.layoutResult);
-        linearLayout.setBackgroundResource(backgroundResource);
+        RelativeLayout layout = findViewById(R.id.layoutResult);
+        layout.setBackgroundResource(backgroundResource);
     }
 
     @Override
@@ -62,7 +63,6 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     public void onInit(int status) {
         if(status != TextToSpeech.ERROR){
             tts.setLanguage(Locale.ENGLISH);
-//            tts.setPitch(0.7f);
             tts.setSpeechRate(0.5f);
         }
     }

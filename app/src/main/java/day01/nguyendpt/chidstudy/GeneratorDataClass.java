@@ -90,7 +90,7 @@ public class GeneratorDataClass {
         list.add(new ObjectPlay(category, "Tàu hỏa", "Train", R.drawable.thing_train, answer,"traffic"));
 
         answer = new String[]{"Computer","Candy","Ball","Window"};
-        list.add(new ObjectPlay(category, "Máy tính", "Computer", R.drawable.thing_computer, answer));
+        list.add(new ObjectPlay(category, "Máy tính", "Computer", R.drawable.thing_computer, answer, "school"));
         list.add(new ObjectPlay(category, "Kẹo", "Candy", R.drawable.thing_candy, answer));
         list.add(new ObjectPlay(category, "Cái bóng", "Ball", R.drawable.thing_ball, answer));
         list.add(new ObjectPlay(category, "Của sổ", "Window", R.drawable.thing_window, answer));

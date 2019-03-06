@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,65 +11,89 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cupcake"
+                android:text="Xin chào, "
+                android:textSize="30dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cupcake"
+                android:textSize="40dp"/>
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/cupcake"
-            android:text="Xin chào, "
-            android:textSize="30dp"
-            android:layout_marginRight="5dp"/>
+            android:text="Bạn hãy chọn chủ đề để bắt đầu"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
 
-        <TextView
-            android:id="@+id/txtName"
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/cupcake"
-            android:textSize="40dp"/>
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_shape_animal"
+            android:onClick="clickToChooseAnimalTopic"
+            android:text="Con vật (Animals)"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:drawableRight="@drawable/button_icon_dog"
+            android:paddingRight="15dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_shape_things"
+            android:onClick="clickToChooseThingTopic"
+            android:text="Đồ vật (Things)"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:drawableRight="@drawable/button_icon_ball"
+            android:paddingRight="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape_nature"
+            android:onClick="clickToChooseNatureTopic"
+            android:text="Thiên nhiên (Nature)"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:drawableRight="@drawable/button_icon_sun"
+            android:paddingRight="15dp"/>
+
     </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Vui lòng chọn chủ đề để bắt đầu!"
-        android:fontFamily="@font/montserrat_semi_bold"
-        android:textSize="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/button_shape_animal"
-        android:onClick="clickToChooseAnimalTopic"
-        android:text="Con vật (Animals)"
-        android:fontFamily="@font/montserrat_semi_bold"
-        android:drawableRight="@drawable/button_icon_dog"
-        android:paddingRight="15dp"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/button_shape_things"
-        android:onClick="clickToChooseThingTopic"
-        android:text="Đồ vật (Things)"
-        android:fontFamily="@font/montserrat_semi_bold"
-        android:drawableRight="@drawable/button_icon_ball"
-        android:paddingRight="15dp"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_shape_nature"
-        android:onClick="clickToChooseNatureTopic"
-        android:text="Thiên nhiên (Nature)"
-        android:fontFamily="@font/montserrat_semi_bold"
-        android:drawableRight="@drawable/button_icon_sun"
-        android:paddingRight="15dp"/>
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/love_kitty"/>
+    </LinearLayout>
+</RelativeLayout>
