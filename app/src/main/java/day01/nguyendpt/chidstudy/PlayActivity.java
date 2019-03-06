@@ -41,7 +41,7 @@ public class PlayActivity extends AppCompatActivity {
         objectPlay = generatorDataClass.getObjectPlay(topic, recentName);
 
         txtCategory = findViewById(R.id.txtCategory);
-        txtCategory.setText("Category: "+objectPlay.getCategory());
+        txtCategory.setText("Chủ đề: "+objectPlay.getCategory());
 
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());

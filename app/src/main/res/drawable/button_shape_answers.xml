@@ -29,7 +29,7 @@
                 </shape>
             </item>
             <item
-                android:bottom="5px"
+                android:bottom="5dp"
                 >
                 <shape>
                     <padding android:bottom="5dp"/>
@@ -63,7 +63,7 @@
                 </shape>
             </item>
             <!-- BUTTON -->
-            <item android:bottom="5px">
+            <item android:bottom="5dp">
                 <shape>
                     <padding android:bottom="5dp"/>
                     <gradient

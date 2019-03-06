@@ -32,7 +32,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         recentName = intent.getStringExtra("recentName");
         backgroundResource = intent.getIntExtra("backgroundResource", R.drawable.blue_cloud_1);
         txtCategory = findViewById(R.id.txtCategory);
-        txtCategory.setText("Category: "+objectPlay.getCategory());
+        txtCategory.setText("Chủ đề: "+objectPlay.getCategory());
 
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
