@@ -23,6 +23,22 @@
             android:textColor="@color/colorPrimaryButton"
             android:textSize="23dp" />
 
+        <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Coustom text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:fontFamily="@font/cupcake"
+            android:textStyle="bold"
+            app:outerShadowRadius="2dp"
+            app:strokeColor="@color/colorBlack"
+            app:strokeJoinStyle="bevel"
+            app:strokeWidth="2dp"/>
+
         <TextView
             android:layout_marginLeft="10px"
             android:layout_width="wrap_content"
