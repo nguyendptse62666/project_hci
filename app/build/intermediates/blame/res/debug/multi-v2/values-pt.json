@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Studying\\A_SPRING2019-HCI202\\ChildStudy\\ChildStudy\\project_hci\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Nguyen Duy Dat\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\eefb16364e60fccd9ba64543eb718a4e\\res\\values-pt\\values-pt.xml",

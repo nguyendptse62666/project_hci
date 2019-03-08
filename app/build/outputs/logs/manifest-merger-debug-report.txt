@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\f7c6a01493fdf46a5c2b3bc849123ffd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\864b47a22b0bfcc56192c4092d36fa49\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9dabbe28ae48d7cb0a1f2a43a0eeb163\AndroidManifest.xml:17:1-22:12
@@ -31,25 +31,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nguyen Duy Dat\.gra
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\21ca84bbb1679a10d9e7136f28c29570\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\393d1357ee2c0256ed8710e244d49d77\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\441e4ba6bac951e65e341c99777bd29f\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:6:5-28:19
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:6:5-28:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\864b47a22b0bfcc56192c4092d36fa49\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\864b47a22b0bfcc56192c4092d36fa49\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\eefb16364e60fccd9ba64543eb718a4e\AndroidManifest.xml:22:5-94
@@ -59,63 +59,63 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nguyen Duy
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\eefb16364e60fccd9ba64543eb718a4e\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:12:9-40
 service#day01.nguyendpt.chidstudy.service.PlayerService
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:13:9-80
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:13:9-80
 	android:enabled
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:13:56-78
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:13:56-78
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:13:18-55
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:13:18-55
 activity#day01.nguyendpt.chidstudy.MainActivity
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:14:9-50
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:14:9-50
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:14:19-47
 activity#day01.nguyendpt.chidstudy.SplashScreenActivity
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:theme
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:17:13-53
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:17:13-53
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:16:13-49
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:16:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:21:27-74
 activity#day01.nguyendpt.chidstudy.EnterNameActivity
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:24:9-55
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:24:9-55
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:24:19-52
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:24:19-52
 activity#day01.nguyendpt.chidstudy.ChooseTopicActivity
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:25:9-57
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:25:9-57
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:25:19-54
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:25:19-54
 activity#day01.nguyendpt.chidstudy.PlayActivity
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:26:9-50
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:26:9-50
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:26:19-47
 activity#day01.nguyendpt.chidstudy.ResultActivity
-ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:27:9-61
+ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:27:9-61
 	android:name
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml:27:19-49
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml:27:19-49
 uses-sdk
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\f7c6a01493fdf46a5c2b3bc849123ffd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\f7c6a01493fdf46a5c2b3bc849123ffd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\864b47a22b0bfcc56192c4092d36fa49\AndroidManifest.xml:5:5-7:41
@@ -170,13 +170,13 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nguyen Duy Dat\.gradle\ca
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\393d1357ee2c0256ed8710e244d49d77\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\441e4ba6bac951e65e341c99777bd29f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\441e4ba6bac951e65e341c99777bd29f\AndroidManifest.xml:20:5-44
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-		ADDED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Studying\A_SPRING2019-HCI202\ChildStudy\ChildStudy\project_hci\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studying\A_SPRING2019-HCI202\Assignment\project_hci\app\src\main\AndroidManifest.xml

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Studying\\A_SPRING2019-HCI202\\ChildStudy\\ChildStudy\\project_hci\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Nguyen Duy Dat\\.gradle\\caches\\transforms-1\\files-1.1\\constraint-layout-1.1.3.aar\\864b47a22b0bfcc56192c4092d36fa49\\res\\values\\values.xml",
@@ -23,20 +23,20 @@
                     }
                 },
                 {
-                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\ChildStudy\\ChildStudy\\project_hci\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
+                        "startLines": "7,19,9,15,13,12,14,16,2,5,6,3,11,10,8,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "274,815,369,667,562,512,614,719,57,159,213,105,461,415,321,769",
+                        "endColumns": "45,44,44,50,50,48,51,46,46,52,59,50,49,44,46,44",
+                        "endOffsets": "315,855,409,713,608,556,661,761,99,207,268,151,506,455,363,809"
                     },
                     "to": {
-                        "startLines": "179",
-                        "startColumns": "4",
-                        "startOffsets": "9169",
-                        "endColumns": "56",
-                        "endOffsets": "9221"
+                        "startLines": "153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "7704,7750,7795,7840,7891,7942,7991,8043,8090,8137,8190,8250,8301,8351,8396,8443",
+                        "endColumns": "45,44,44,50,50,48,51,46,46,52,59,50,49,44,46,44",
+                        "endOffsets": "7745,7790,7835,7886,7937,7986,8038,8085,8132,8185,8245,8296,8346,8391,8438,8483"
                     }
                 },
                 {
@@ -78,20 +78,22 @@
                     }
                 },
                 {
-                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\ChildStudy\\ChildStudy\\project_hci\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "48",
-                        "endOffsets": "60"
+                        "startLines": "3,15,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,606,418",
+                        "endLines": "8,18,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "374,750,598"
                     },
                     "to": {
-                        "startLines": "1854",
-                        "startColumns": "4",
-                        "startOffsets": "108808",
-                        "endColumns": "48",
-                        "endOffsets": "108852"
+                        "startLines": "1862,2928,3125",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "109423,177667,191296",
+                        "endLines": "1867,2931,3127",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "109735,177808,191473"
                     }
                 },
                 {
@@ -114,39 +116,37 @@
                     }
                 },
                 {
-                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\ChildStudy\\ChildStudy\\project_hci\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "7,19,9,15,13,12,14,16,2,5,6,3,11,10,8,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "267,796,360,652,549,500,600,703,55,154,207,102,450,405,313,751",
-                        "endColumns": "45,44,44,50,50,48,51,46,46,52,59,50,49,44,46,44",
-                        "endOffsets": "308,836,400,698,595,544,647,745,97,202,262,148,495,445,355,791"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "48",
+                        "endOffsets": "61"
                     },
                     "to": {
-                        "startLines": "153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "7704,7750,7795,7840,7891,7942,7991,8043,8090,8137,8190,8250,8301,8351,8396,8443",
-                        "endColumns": "45,44,44,50,50,48,51,46,46,52,59,50,49,44,46,44",
-                        "endOffsets": "7745,7790,7835,7886,7937,7986,8038,8085,8132,8185,8245,8296,8346,8391,8438,8483"
+                        "startLines": "1854",
+                        "startColumns": "4",
+                        "startOffsets": "108808",
+                        "endColumns": "48",
+                        "endOffsets": "108852"
                     }
                 },
                 {
-                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\ChildStudy\\ChildStudy\\project_hci\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
                     "from": {
-                        "startLines": "3,15,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "54,591,407",
-                        "endLines": "8,18,13",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "366,732,585"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
                     },
                     "to": {
-                        "startLines": "1862,2928,3125",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "109423,177667,191296",
-                        "endLines": "1867,2931,3127",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "109735,177808,191473"
+                        "startLines": "179",
+                        "startColumns": "4",
+                        "startOffsets": "9169",
+                        "endColumns": "56",
+                        "endOffsets": "9221"
                     }
                 }
             ]
