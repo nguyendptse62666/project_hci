@@ -33,7 +33,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         recentName = intent.getStringExtra("recentName");
         backgroundResource = intent.getIntExtra("backgroundResource", R.drawable.blue_cloud_1);
         txtCategory = findViewById(R.id.txtCategory);
-        txtCategory.setText("Chủ đề: "+objectPlay.getCategory());
+        txtCategory.setText("Chủ đề: "+ getCategory(objectPlay.getCategory()));
 
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
@@ -48,6 +48,18 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
         RelativeLayout layout = findViewById(R.id.layoutResult);
         layout.setBackgroundResource(backgroundResource);
+    }
+
+    private String getCategory(String category){
+        switch (category.toUpperCase()){
+            case "ANIMAL":
+                return "Animal - Con vật";
+            case "NATURE":
+                return  "Nature - Thiên nhiên";
+            case "THING":
+                return "Thing - Đồ vật";
+        }
+        return "Tự do";
     }
 
     @Override

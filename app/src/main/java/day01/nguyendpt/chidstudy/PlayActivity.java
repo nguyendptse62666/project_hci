@@ -41,7 +41,7 @@ public class PlayActivity extends AppCompatActivity {
         objectPlay = generatorDataClass.getObjectPlay(topic, recentName);
 
         txtCategory = findViewById(R.id.txtCategory);
-        txtCategory.setText("Chủ đề: "+objectPlay.getCategory());
+        txtCategory.setText("Chủ đề: "+ getCategory(objectPlay.getCategory()));
 
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
@@ -70,6 +70,17 @@ public class PlayActivity extends AppCompatActivity {
 
     }
 
+    private String getCategory(String category){
+        switch (category.toUpperCase()){
+            case "ANIMAL":
+                return "Animal - Con vật";
+            case "NATURE":
+                return  "Nature - Thiên nhiên";
+            case "THING":
+                return "Thing - Đồ vật";
+        }
+        return "Tự do";
+    }
     public void controlTopic(String topic, ObjectPlay objectPlay){
 
         if( objectPlay.getNote() != null ){
@@ -135,6 +146,6 @@ public class PlayActivity extends AppCompatActivity {
             public void run() {
                 imageResult.setImageResource(0);
             }
-        }, 500);
+        }, 700);
     }
 }

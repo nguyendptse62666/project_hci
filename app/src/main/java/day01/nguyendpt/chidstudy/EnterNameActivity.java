@@ -26,6 +26,8 @@ public class EnterNameActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Bạn vui lòng nhập tên nhé!", Toast.LENGTH_LONG).show();
             return;
         } else {
+            name = name.toLowerCase();
+            name = Character.toUpperCase(name.charAt(0)) + name.substring(1);
             SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("edtPlayerName", name);

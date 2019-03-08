@@ -15,11 +15,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="20dp"
+        android:textSize="22dp"
         android:fontFamily="@font/cupcake"
         android:layout_margin="10dp"
-        android:text="Chào mừng bạn đến với thế giới của Child Study"/>
+        android:text="Chào mừng bạn đến với thế giới của"/>
+    <TextView
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:fontFamily="@font/cupcake"
+        android:text="Child Study" />
     <ImageView
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/write_kitty"

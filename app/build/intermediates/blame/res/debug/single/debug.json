@@ -332,6 +332,10 @@
         "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_kitty.png.flat",
+        "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\drawable\\phone_kitty.png"
+    },
+    {
         "merged": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Nguyen Duy Dat\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f7c6a01493fdf46a5c2b3bc849123ffd\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
