@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
+        <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
             android:layout_marginTop="20px"
             android:layout_marginHorizontal="40dp"
             android:layout_width="match_parent"
@@ -21,25 +21,17 @@
             android:text="Chủ đề"
             android:fontFamily="@font/cupcake"
             android:textColor="@color/colorPrimaryButton"
-            android:textSize="23dp" />
-
-        <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:textSize="23dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:gravity="center"
-            android:text="Coustom text"
-            android:textColor="@color/colorPrimary"
-            android:textSize="30dp"
-            android:fontFamily="@font/cupcake"
             android:textStyle="bold"
             app:outerShadowRadius="2dp"
-            app:strokeColor="@color/colorBlack"
+            app:strokeColor="@color/colorWhite"
             app:strokeJoinStyle="bevel"
             app:strokeWidth="2dp"/>
 
-        <TextView
+        <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
             android:layout_marginLeft="10px"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,6 +43,13 @@
             android:text="Tên tiếng việt"
             android:textSize="30dp"
             android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            app:outerShadowRadius="2dp"
+            app:strokeColor="@color/colorWhite"
+            app:strokeJoinStyle="bevel"
+            app:strokeWidth="2dp"
             />
         <ImageView
             android:layout_width="260dp"
