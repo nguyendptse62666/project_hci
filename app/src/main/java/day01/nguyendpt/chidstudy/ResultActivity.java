@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.util.HashMap;
 import java.util.Locale;
 
 import day01.nguyendpt.chidstudy.service.PlayerService;
@@ -90,7 +91,9 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     public void clickToSpeech(View view) {
         Button button = (Button) view;
         PlayerService.player.pause();
-        tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
+        HashMap<String, String> onlineSpeech = new HashMap<>();
+        onlineSpeech.put(TextToSpeech.Engine.KEY_FEATURE_NETWORK_SYNTHESIS, "true");
+        tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, onlineSpeech);
         try {
             Thread.sleep(2000);
         } catch (Exception e) {

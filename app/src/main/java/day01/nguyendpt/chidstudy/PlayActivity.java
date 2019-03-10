@@ -1,9 +1,12 @@
 package day01.nguyendpt.chidstudy;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Handler;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,6 +43,7 @@ public class PlayActivity extends AppCompatActivity {
         } else {
             recentName = "";
         }
+
         generatorDataClass = new GeneratorDataClass();
         objectPlay = generatorDataClass.getObjectPlay(topic, recentName);
 
@@ -70,6 +74,48 @@ public class PlayActivity extends AppCompatActivity {
         wrongAns = soundPool.load(this, R.raw.wrong_answer,1);
 
         controlTopic(topic, objectPlay);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+                    new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            button1.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    button1.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
+                            button2.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    button2.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
+                            button3.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    button3.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
+                            button4.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    button4.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
+                        }
+                    }, 500);
+                    try {
+                        Thread.sleep(1000);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
 
     }
 
@@ -142,16 +188,21 @@ public class PlayActivity extends AppCompatActivity {
 
 
     public void submitWrongAnswer(){
+        imageResult.setImageResource(R.drawable.wrong_kitty);
         PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.wrong_answer);
         Intent service = new Intent(getApplicationContext(), PlayerService.class);
         startService(service);
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                try {
+                    Thread.sleep(700);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 imageResult.setImageResource(0);
             }
-        }, 700);
+        }, 1);
     }
     @Override
     protected void onPause() {
