@@ -1,11 +1,18 @@
 package day01.nguyendpt.chidstudy;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ChooseTopicActivity extends AppCompatActivity {
@@ -15,6 +22,59 @@ public class ChooseTopicActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_topic);
+
+        final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
+        final Button btnAnimal = findViewById(R.id.btnAnimal);
+        final Button btnThins = findViewById(R.id.btnThings);
+        final Button btnNature = findViewById(R.id.btnNature);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+                    new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            btnAnimal.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    btnAnimal.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
+                            btnThins.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    btnThins.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
+                            btnNature.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    btnNature.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
+                        }}, 1000);
+
+                    btnAnimal.startAnimation(shake);
+                    btnThins.startAnimation(shake);
+                    btnNature.startAnimation(shake);
+                    try {
+                        Thread.sleep(2000);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    btnAnimal.clearAnimation();
+                    btnThins.clearAnimation();
+                    btnNature.clearAnimation();
+                    try {
+                        Thread.sleep(2000);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
+
 
         TextView txtName= findViewById(R.id.txtName);
         SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);

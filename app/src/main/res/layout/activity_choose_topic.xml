@@ -47,6 +47,7 @@
             android:layout_marginBottom="10dp"/>
 
         <Button
+            android:id="@+id/btnAnimal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -59,6 +60,7 @@
             />
 
         <Button
+            android:id="@+id/btnThings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -70,6 +72,7 @@
             android:paddingRight="15dp"/>
 
         <Button
+            android:id="@+id/btnNature"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_shape_nature"

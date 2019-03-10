@@ -27,7 +27,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                     intent = new Intent(getApplicationContext(), ChooseTopicActivity.class);
                 }
                 Intent service = new Intent(getApplicationContext(), PlayerService.class);
-                startService(service);
+                //startService(service);
                 startActivity(intent);
                 finish();
             }

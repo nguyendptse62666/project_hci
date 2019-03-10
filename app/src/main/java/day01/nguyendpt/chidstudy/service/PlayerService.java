@@ -20,10 +20,10 @@ public class PlayerService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        player = MediaPlayer.create(this, R.raw.background);
-        player.setLooping(true);
-        player.setVolume(60,60);
-        player.start();
+//        player = MediaPlayer.create(this, R.raw.background);
+//        player.setLooping(true);
+//        player.setVolume(60,60);
+//        player.start();
     }
 
     @Override
