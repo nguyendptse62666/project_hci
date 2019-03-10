@@ -138,12 +138,6 @@ public class PlayActivity extends AppCompatActivity {
         intent.putExtra("backgroundResource", backgroundResource);
         intent.putExtra("recentName", recentName);
         startActivity(intent);
-        try {
-            Thread.sleep(2000);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
     }
 
 

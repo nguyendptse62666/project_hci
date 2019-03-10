@@ -32,6 +32,11 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_result);
         Intent intent = getIntent();
+        try {
+            Thread.sleep(2000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         objectPlay = (ObjectPlay) intent.getSerializableExtra("objectPlay");
         recentName = intent.getStringExtra("recentName");
         backgroundResource = intent.getIntExtra("backgroundResource", R.drawable.blue_cloud_1);
