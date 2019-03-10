@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "N:\\StudyDrive\\CN_7\\HCI201\\project_hci\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nicea\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ef12152223c85570f7758c5f4cc515db\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Nguyen Duy Dat\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f7c6a01493fdf46a5c2b3bc849123ffd\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
