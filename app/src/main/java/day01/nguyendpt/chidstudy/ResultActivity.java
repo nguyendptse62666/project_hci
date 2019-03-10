@@ -14,6 +14,8 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
+import day01.nguyendpt.chidstudy.service.PlayerService;
+
 public class ResultActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
 
     private String recentName;
@@ -23,17 +25,18 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     private ImageView imageView;
     private static TextToSpeech tts;
     private int backgroundResource;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_result);
         Intent intent = getIntent();
         objectPlay = (ObjectPlay) intent.getSerializableExtra("objectPlay");
         recentName = intent.getStringExtra("recentName");
         backgroundResource = intent.getIntExtra("backgroundResource", R.drawable.blue_cloud_1);
         txtCategory = findViewById(R.id.txtCategory);
-        txtCategory.setText("Chủ đề: "+ getCategory(objectPlay.getCategory()));
+        txtCategory.setText("Chủ đề: " + getCategory(objectPlay.getCategory()));
 
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
@@ -50,12 +53,12 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         layout.setBackgroundResource(backgroundResource);
     }
 
-    private String getCategory(String category){
-        switch (category.toUpperCase()){
+    private String getCategory(String category) {
+        switch (category.toUpperCase()) {
             case "ANIMAL":
                 return "Animal - Con vật";
             case "NATURE":
-                return  "Nature - Thiên nhiên";
+                return "Nature - Thiên nhiên";
             case "THING":
                 return "Thing - Đồ vật";
         }
@@ -64,7 +67,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
     @Override
     protected void onDestroy() {
-        if(tts != null){
+        if (tts != null) {
             tts.stop();
             tts.shutdown();
         }
@@ -73,7 +76,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
     @Override
     public void onInit(int status) {
-        if(status != TextToSpeech.ERROR){
+        if (status != TextToSpeech.ERROR) {
             tts.setLanguage(Locale.ENGLISH);
             tts.setSpeechRate(0.5f);
         }
@@ -81,11 +84,18 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
     public void clickToSpeech(View view) {
         Button button = (Button) view;
-        tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null );
+        PlayerService.player.pause();
+        tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
+        try {
+            Thread.sleep(2000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        PlayerService.player.start();
     }
 
     public void clickToContinue(View view) {
-        Intent intent= new Intent(this, PlayActivity.class);
+        Intent intent = new Intent(this, PlayActivity.class);
         intent.putExtra("topic", objectPlay.getCategory());
         intent.putExtra("recentName", recentName);
         startActivity(intent);
@@ -96,6 +106,16 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         Intent intent = new Intent(this, ChooseTopicActivity.class);
         startActivity(intent);
         finish();
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        PlayerService.player.pause();
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        PlayerService.player.start();
     }
 }

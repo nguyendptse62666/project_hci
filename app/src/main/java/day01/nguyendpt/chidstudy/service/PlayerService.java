@@ -10,7 +10,7 @@ import android.support.annotation.Nullable;
 import day01.nguyendpt.chidstudy.R;
 
 public class PlayerService extends Service {
-    private MediaPlayer player;
+    public static MediaPlayer player;
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {

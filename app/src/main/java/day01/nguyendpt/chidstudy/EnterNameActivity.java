@@ -10,6 +10,8 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import day01.nguyendpt.chidstudy.service.PlayerService;
+
 public class EnterNameActivity extends AppCompatActivity {
 
     @Override
@@ -37,5 +39,16 @@ public class EnterNameActivity extends AppCompatActivity {
             finish();
         }
 
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        PlayerService.player.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        PlayerService.player.start();
     }
 }

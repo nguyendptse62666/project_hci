@@ -15,6 +15,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
+import day01.nguyendpt.chidstudy.service.PlayerService;
+
 public class ChooseTopicActivity extends AppCompatActivity {
 
     @Override
@@ -98,5 +100,17 @@ public class ChooseTopicActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PlayActivity.class);
         intent.putExtra("topic","thing");
         startActivity(intent);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        PlayerService.player.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        PlayerService.player.start();
     }
 }

@@ -13,6 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import day01.nguyendpt.chidstudy.service.PlayerService;
+
 public class PlayActivity extends AppCompatActivity {
 
     private String topic, recentName;
@@ -125,13 +127,18 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitRightAnswer(){
-        soundPool.play(rightAns,1.5f,1.5f,1,0,1);
         imageResult.setImageResource(R.drawable.right_kitty);
+        soundPool.play(rightAns,1.5f,1.5f,1,0,1);
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
         recentName = objectPlay.getEngName();
         intent.putExtra("backgroundResource", backgroundResource);
         intent.putExtra("recentName", recentName);
+        try {
+            Thread.sleep(2000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         startActivity(intent);
         finish();
     }
@@ -147,5 +154,16 @@ public class PlayActivity extends AppCompatActivity {
                 imageResult.setImageResource(0);
             }
         }, 700);
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        PlayerService.player.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        PlayerService.player.start();
     }
 }
