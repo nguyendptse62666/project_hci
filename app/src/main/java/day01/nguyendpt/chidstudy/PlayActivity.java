@@ -1,6 +1,7 @@
 package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -127,26 +128,29 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitRightAnswer(){
+        PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.right_answer);
+        Intent service = new Intent(getApplicationContext(), PlayerService.class);
+        startService(service);
         imageResult.setImageResource(R.drawable.right_kitty);
-        soundPool.play(rightAns,1.5f,1.5f,1,0,1);
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
         recentName = objectPlay.getEngName();
         intent.putExtra("backgroundResource", backgroundResource);
         intent.putExtra("recentName", recentName);
+        startActivity(intent);
         try {
             Thread.sleep(2000);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        startActivity(intent);
-        finish();
+
     }
 
 
     public void submitWrongAnswer(){
-        soundPool.play(wrongAns,1.5f,1.5f,1,0,1);
-        imageResult.setImageResource(R.drawable.wrong_kitty);
+        PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.wrong_answer);
+        Intent service = new Intent(getApplicationContext(), PlayerService.class);
+        startService(service);
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
