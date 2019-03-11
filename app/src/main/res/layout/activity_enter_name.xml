@@ -57,12 +57,12 @@
         android:background="@drawable/shape_input_name"
         android:hint="Mời nhập tên của bạn" />
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/checked"
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/pencil_icon"
         android:layout_gravity="center"
         android:onClick="clickToEnterName"
-        android:textColor="@android:color/holo_red_dark"
-        android:paddingHorizontal="30dp"
-        android:background="@drawable/button_shape_answers"/>
+        android:paddingHorizontal="15dp"
+        android:background="@drawable/button_shape_circle"/>
 </LinearLayout>
