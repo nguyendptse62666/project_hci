@@ -10,28 +10,40 @@
     android:background="@drawable/galaxy"
     android:paddingTop="50dp">
 
-    <TextView
-        android:textColor="@android:color/holo_orange_dark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="22dp"
-        android:fontFamily="@font/cupcake"
-        android:layout_margin="10dp"
-        android:text="Chào mừng bạn đến với thế giới của"/>
-    <TextView
+    <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
         android:textColor="@android:color/holo_orange_dark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="24dp"
         android:fontFamily="@font/cupcake"
-        android:text="Child Study" />
-    <ImageView
-        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:text="Chào mừng bạn đến với thế giới của"
+        android:textStyle="bold"
+        app:outerShadowRadius="0dp"
+        app:strokeColor="@color/colorWhite"
+        app:strokeJoinStyle="miter"
+        app:strokeWidth="1dp"
+        />
+    <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
+        android:textColor="@android:color/holo_orange_dark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:fontFamily="@font/cupcake"
+        android:text="Child Study"
+        android:textStyle="bold"
+        app:outerShadowRadius="0dp"
+        app:strokeColor="@color/colorWhite"
+        app:strokeJoinStyle="miter"
+        app:strokeWidth="1dp"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/write_kitty"
+        android:id="@+id/ivEnterNameIcon"
         />
     <EditText
         android:layout_width="300dp"
@@ -47,10 +59,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hoàn thành"
+        android:drawableLeft="@drawable/checked"
         android:layout_gravity="center"
         android:onClick="clickToEnterName"
         android:textColor="@android:color/holo_red_dark"
-        android:paddingHorizontal="15dp"
+        android:paddingHorizontal="30dp"
         android:background="@drawable/button_shape_answers"/>
 </LinearLayout>

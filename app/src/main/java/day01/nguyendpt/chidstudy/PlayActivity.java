@@ -11,12 +11,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import day01.nguyendpt.chidstudy.service.DingService;
 import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class PlayActivity extends AppCompatActivity {
@@ -27,9 +30,8 @@ public class PlayActivity extends AppCompatActivity {
     private TextView txtCategory;
     private ImageView imageView;
     private Button button1, button2, button3, button4;
-    private SoundPool soundPool;
     private ImageView imageResult;
-    private int ding, wrongAns, rightAns, backgroundResource;
+    private int backgroundResource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,8 +52,10 @@ public class PlayActivity extends AppCompatActivity {
         txtCategory = findViewById(R.id.txtCategory);
         txtCategory.setText("Chủ đề: "+ getCategory(objectPlay.getCategory()));
 
+        final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
+        imageView.setAnimation(shake);
 
 
         button1 = findViewById(R.id.btnAnswer1);
@@ -67,11 +71,6 @@ public class PlayActivity extends AppCompatActivity {
         button4.setText(objectPlay.getAnswers()[3]);
 
         imageResult = findViewById(R.id.imageResult);
-        soundPool = SoundPoolGenerator.initializeSoundPool();
-
-        ding = soundPool.load(this, R.raw.ding,1);
-        rightAns = soundPool.load(this, R.raw.right_answer,1);
-        wrongAns = soundPool.load(this, R.raw.wrong_answer,1);
 
         controlTopic(topic, objectPlay);
 
@@ -82,25 +81,25 @@ public class PlayActivity extends AppCompatActivity {
                     new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            button1.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                            button1.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
                                     button1.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
                                 }
                             });
-                            button2.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                            button2.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
                                     button2.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
                                 }
                             });
-                            button3.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                            button3.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
                                     button3.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
                                 }
                             });
-                            button4.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                            button4.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
                                     button4.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
@@ -160,7 +159,9 @@ public class PlayActivity extends AppCompatActivity {
         }
         LinearLayout linearLayout = findViewById(R.id.layoutPlay);
         linearLayout.setBackgroundResource(backgroundResource);
-        soundPool.play(ding, 1,1,0,1,1);
+        Intent dingService = new Intent(getApplicationContext(), DingService.class);
+        startService(dingService);
+
     }
 
     public void clickToSubmitAnswer(View view) {
@@ -204,6 +205,7 @@ public class PlayActivity extends AppCompatActivity {
             }
         }, 1);
     }
+
     @Override
     protected void onPause() {
         super.onPause();
@@ -215,4 +217,5 @@ public class PlayActivity extends AppCompatActivity {
         super.onResume();
         PlayerService.player.start();
     }
+
 }

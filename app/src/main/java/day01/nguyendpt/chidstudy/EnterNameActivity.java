@@ -7,18 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class EnterNameActivity extends AppCompatActivity {
 
+    private ImageView ivEnterNameIcon;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enter_name);
+        ivEnterNameIcon = findViewById(R.id.ivEnterNameIcon);
+        final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
+        ivEnterNameIcon.setAnimation(shake);
     }
 
     public void clickToEnterName(View view) {

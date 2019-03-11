@@ -95,7 +95,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         onlineSpeech.put(TextToSpeech.Engine.KEY_FEATURE_NETWORK_SYNTHESIS, "true");
         tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, onlineSpeech);
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (Exception e) {
             e.printStackTrace();
         }
