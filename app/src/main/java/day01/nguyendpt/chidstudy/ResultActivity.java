@@ -77,20 +77,20 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
                     new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            btnClickContinue.animate().scaleX(1f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                            btnClickContinue.animate().scaleX(1.2f).scaleY(1.2f).setDuration(300).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
-                                    btnClickContinue.animate().scaleX(1f).scaleY(1f).setDuration(200);
+                                    btnClickContinue.animate().scaleX(1f).scaleY(1f).setDuration(300);
                                 }
                             });
-                            btnClickNewTopic.animate().scaleX(1f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                            btnClickNewTopic.animate().scaleX(1.2f).scaleY(1.2f).setDuration(300).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
-                                    btnClickNewTopic.animate().scaleX(1f).scaleY(1f).setDuration(200);
+                                    btnClickNewTopic.animate().scaleX(1f).scaleY(1f).setDuration(300);
                                 }
                             });
 
-                        }}, 500);
+                        }}, 300);
 
                     buttonSpeech.startAnimation(shake);
                     imgKitty.startAnimation(shakeKitty);
@@ -102,7 +102,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
                     buttonSpeech.clearAnimation();
                     imgKitty.clearAnimation();
                     try {
-                        Thread.sleep(1800);
+                        Thread.sleep(1000);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

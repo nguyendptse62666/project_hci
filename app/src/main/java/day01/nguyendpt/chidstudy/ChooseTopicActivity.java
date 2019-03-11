@@ -13,12 +13,14 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class ChooseTopicActivity extends AppCompatActivity {
 
+    private ImageView ivChooseTopic;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -29,6 +31,7 @@ public class ChooseTopicActivity extends AppCompatActivity {
         final Button btnAnimal = findViewById(R.id.btnAnimal);
         final Button btnThins = findViewById(R.id.btnThings);
         final Button btnNature = findViewById(R.id.btnNature);
+        ivChooseTopic = findViewById(R.id.ivChooseTopicIcon);
 
         new Thread(new Runnable() {
             @Override
@@ -60,6 +63,7 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     btnAnimal.startAnimation(shake);
                     btnThins.startAnimation(shake);
                     btnNature.startAnimation(shake);
+                    ivChooseTopic.startAnimation(shake);
                     try {
                         Thread.sleep(1000);
                     } catch (Exception e) {
