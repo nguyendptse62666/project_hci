@@ -13,6 +13,7 @@ import day01.nguyendpt.chidstudy.R;
 public class PlayerService extends Service {
     public static MediaPlayer player;
     public static MediaPlayer rightWrongPlayer;
+
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
@@ -30,6 +31,7 @@ public class PlayerService extends Service {
             rightWrongPlayer.setVolume(100, 100);
             rightWrongPlayer.start();
         }
+
     }
 
     @Override

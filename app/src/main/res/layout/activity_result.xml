@@ -123,7 +123,9 @@
             android:background="@drawable/button_shape_answers"
             android:fontFamily="@font/montserrat_semi_bold"
             android:onClick="clickToContinue"
+            android:drawableRight="@drawable/next_arrow_icon"
             android:text="Tiếp tục"
+            android:paddingRight="20dp"
             android:textColor="@android:color/holo_red_dark" />
 
         <Button

@@ -704,6 +704,10 @@
         "source": "C:\\Users\\Nguyen Duy Dat\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f7c6a01493fdf46a5c2b3bc849123ffd\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
+        "merged": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checked.png.flat",
+        "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\drawable\\checked.png"
+    },
+    {
         "merged": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Nguyen Duy Dat\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f7c6a01493fdf46a5c2b3bc849123ffd\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
@@ -1798,6 +1802,10 @@
     {
         "merged": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
         "source": "C:\\Users\\Nguyen Duy Dat\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f7c6a01493fdf46a5c2b3bc849123ffd\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next_arrow.png.flat",
+        "source": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\src\\main\\res\\drawable\\next_arrow.png"
     },
     {
         "merged": "D:\\Studying\\A_SPRING2019-HCI202\\Assignment\\project_hci\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",

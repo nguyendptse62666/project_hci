@@ -35,24 +35,24 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             />
-        <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
-            android:layout_marginTop="20px"
-            android:layout_marginHorizontal="40dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Chọn tên tiếng Anh của hình ảnh ở trên nhé"
-            android:fontFamily="@font/cupcake"
-            android:textColor="#F70094"
-            android:textSize="25dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:gravity="center"
-            android:textStyle="bold"
-            app:outerShadowRadius="2dp"
-            app:strokeColor="#59f442"
-            app:strokeJoinStyle="bevel"
-            app:strokeWidth="2dp"
-            />
+        <!--<day01.nguyendpt.chidstudy.CustomControl.CoustomTextView-->
+            <!--android:layout_marginTop="20px"-->
+            <!--android:layout_marginHorizontal="40dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Chọn tên tiếng Anh của hình ảnh ở trên nhé"-->
+            <!--android:fontFamily="@font/cupcake"-->
+            <!--android:textColor="#F70094"-->
+            <!--android:textSize="25dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:gravity="center"-->
+            <!--android:textStyle="bold"-->
+            <!--app:outerShadowRadius="2dp"-->
+            <!--app:strokeColor="#59f442"-->
+            <!--app:strokeJoinStyle="bevel"-->
+            <!--app:strokeWidth="2dp"-->
+            <!--/>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

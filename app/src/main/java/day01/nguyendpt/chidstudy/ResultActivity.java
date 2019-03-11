@@ -146,7 +146,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         PlayerService.player.pause();
         tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (Exception e) {
             e.printStackTrace();
         }

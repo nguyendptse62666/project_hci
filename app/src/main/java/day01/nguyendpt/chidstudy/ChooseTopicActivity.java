@@ -55,13 +55,13 @@ public class ChooseTopicActivity extends AppCompatActivity {
                                     btnNature.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
                                 }
                             });
-                        }}, 1000);
+                        }}, 500);
 
                     btnAnimal.startAnimation(shake);
                     btnThins.startAnimation(shake);
                     btnNature.startAnimation(shake);
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -69,7 +69,7 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     btnThins.clearAnimation();
                     btnNature.clearAnimation();
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
