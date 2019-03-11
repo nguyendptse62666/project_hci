@@ -15,6 +15,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import day01.nguyendpt.chidstudy.service.DingService;
@@ -158,7 +159,7 @@ public class PlayActivity extends AppCompatActivity {
                     break;
             }
         }
-        LinearLayout linearLayout = findViewById(R.id.layoutPlay);
+        RelativeLayout linearLayout = findViewById(R.id.layoutPlay);
         linearLayout.setBackgroundResource(backgroundResource);
         Intent dingService = new Intent(getApplicationContext(), DingService.class);
         startService(dingService);
