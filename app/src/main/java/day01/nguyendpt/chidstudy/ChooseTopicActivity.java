@@ -28,6 +28,8 @@ public class ChooseTopicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_choose_topic);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
+        final Animation kitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
+
         final Button btnAnimal = findViewById(R.id.btnAnimal);
         final Button btnThins = findViewById(R.id.btnThings);
         final Button btnNature = findViewById(R.id.btnNature);
@@ -63,7 +65,7 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     btnAnimal.startAnimation(shake);
                     btnThins.startAnimation(shake);
                     btnNature.startAnimation(shake);
-                    ivChooseTopic.startAnimation(shake);
+                    ivChooseTopic.startAnimation(kitty);
                     try {
                         Thread.sleep(1000);
                     } catch (Exception e) {

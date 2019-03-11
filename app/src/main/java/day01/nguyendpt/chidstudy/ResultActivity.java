@@ -39,7 +39,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         Intent intent = getIntent();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1500);
         } catch (Exception e) {
             e.printStackTrace();
         }
