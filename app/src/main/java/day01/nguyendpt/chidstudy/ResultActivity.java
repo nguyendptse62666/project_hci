@@ -1,18 +1,22 @@
 package day01.nguyendpt.chidstudy;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
+import android.os.Handler;
+import android.os.Looper;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.util.HashMap;
 import java.util.Locale;
 
 import day01.nguyendpt.chidstudy.service.PlayerService;
@@ -24,7 +28,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     private TextView txtCategory, txtVietName;
     private Button buttonSpeech;
     private ImageView imageView;
-    private static TextToSpeech tts;
+    private TextToSpeech tts;
     private int backgroundResource;
 
     @Override
@@ -33,6 +37,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_result);
         Intent intent = getIntent();
+
         try {
             Thread.sleep(2000);
         } catch (Exception e) {
@@ -57,6 +62,54 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
         RelativeLayout layout = findViewById(R.id.layoutResult);
         layout.setBackgroundResource(backgroundResource);
+
+        final Button btnClickContinue = findViewById(R.id.btnClickContinue);
+        final Button btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
+        final ImageView imgKitty = findViewById(R.id.ImgKitty);
+
+        final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
+        final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+                    new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            btnClickContinue.animate().scaleX(1f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    btnClickContinue.animate().scaleX(1f).scaleY(1f).setDuration(200);
+                                }
+                            });
+                            btnClickNewTopic.animate().scaleX(1f).scaleY(1.2f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    btnClickNewTopic.animate().scaleX(1f).scaleY(1f).setDuration(200);
+                                }
+                            });
+
+                        }}, 500);
+
+                    buttonSpeech.startAnimation(shake);
+                    imgKitty.startAnimation(shakeKitty);
+                    try {
+                        Thread.sleep(1000);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    buttonSpeech.clearAnimation();
+                    imgKitty.clearAnimation();
+                    try {
+                        Thread.sleep(1800);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
+
     }
 
     private String getCategory(String category) {
@@ -73,27 +126,25 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
     @Override
     protected void onDestroy() {
+        super.onDestroy();
         if (tts != null) {
             tts.stop();
             tts.shutdown();
         }
-        super.onDestroy();
     }
 
     @Override
     public void onInit(int status) {
         if (status != TextToSpeech.ERROR) {
             tts.setLanguage(Locale.ENGLISH);
-            tts.setSpeechRate(0.5f);
+            tts.setSpeechRate(0.8f);
         }
     }
 
     public void clickToSpeech(View view) {
         Button button = (Button) view;
         PlayerService.player.pause();
-        HashMap<String, String> onlineSpeech = new HashMap<>();
-        onlineSpeech.put(TextToSpeech.Engine.KEY_FEATURE_NETWORK_SYNTHESIS, "true");
-        tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, onlineSpeech);
+        tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
         try {
             Thread.sleep(2000);
         } catch (Exception e) {

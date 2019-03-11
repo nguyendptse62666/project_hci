@@ -11,6 +11,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -75,6 +77,7 @@ public class PlayActivity extends AppCompatActivity {
 
         controlTopic(topic, objectPlay);
 
+        final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -108,11 +111,13 @@ public class PlayActivity extends AppCompatActivity {
                             });
                         }
                     }, 500);
+                    imageResult.startAnimation(shakeKitty);
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(500);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
+
                 }
             }
         }).start();
@@ -174,10 +179,10 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitRightAnswer(){
+        imageResult.setImageResource(R.drawable.right_kitty);
         PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.right_answer);
         Intent service = new Intent(getApplicationContext(), PlayerService.class);
         startService(service);
-        imageResult.setImageResource(R.drawable.right_kitty);
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
         recentName = objectPlay.getEngName();
@@ -196,7 +201,7 @@ public class PlayActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(700);
+                    Thread.sleep(900);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
