@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CoustomTextView">
-
         <attr name="outerShadowRadius" format="dimension" />
         <attr name="strokeWidth" format="dimension" />
         <attr name="strokeMiter" format="dimension" />
@@ -12,4 +11,5 @@
             <enum name="round" value="2" />
         </attr>
     </declare-styleable>
+
 </resources>
