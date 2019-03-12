@@ -116,7 +116,7 @@ public class PlayActivity extends AppCompatActivity {
                 }
             }
         }).start();
-        
+
         imageView.setAnimation(shakeKitty);
         imageResult.setAnimation(shakeKitty);
 

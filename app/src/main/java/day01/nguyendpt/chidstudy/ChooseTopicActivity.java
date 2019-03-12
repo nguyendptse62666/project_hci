@@ -54,12 +54,6 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            btnChangeName.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
-                                @Override
-                                public void onAnimationEnd(Animator animation) {
-                                    btnChangeName.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
-                                }
-                            });
                             btnAnimal.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
@@ -81,7 +75,6 @@ public class ChooseTopicActivity extends AppCompatActivity {
                         }
                     }, 500);
 
-                    btnChangeName.startAnimation(kitty);
                     btnAnimal.startAnimation(shake);
                     btnThins.startAnimation(shake);
                     btnNature.startAnimation(shake);
@@ -91,7 +84,6 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-                    btnChangeName.clearAnimation();
                     btnAnimal.clearAnimation();
                     btnThins.clearAnimation();
                     btnNature.clearAnimation();

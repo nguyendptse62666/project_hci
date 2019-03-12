@@ -14,6 +14,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -64,8 +65,8 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         RelativeLayout layout = findViewById(R.id.layoutResult);
         layout.setBackgroundResource(backgroundResource);
 
-        final Button btnClickContinue = findViewById(R.id.btnClickContinue);
-        final Button btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
+        final LinearLayout btnClickContinue = findViewById(R.id.btnClickContinue);
+        final LinearLayout btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
         final ImageView imgKitty = findViewById(R.id.ImgKitty);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
