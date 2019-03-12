@@ -119,9 +119,9 @@
             android:layout_height="90dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:paddingBottom="10dp">
+            android:paddingBottom="10dp"
+            android:id="@+id/btnClickContinue">
             <Button
-                android:id="@+id/btnClickContinue"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:background="@drawable/button_shape_circle"
@@ -135,9 +135,9 @@
             android:layout_height="90dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:paddingBottom="10dp">
+            android:paddingBottom="10dp"
+            android:id="@+id/btnClickNewTopic">
             <Button
-                android:id="@+id/btnClickNewTopic"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:background="@drawable/button_shape_circle"
