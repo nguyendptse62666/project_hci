@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import day01.nguyendpt.chidstudy.CustomControl.CoustomTextView;
 import day01.nguyendpt.chidstudy.service.DingService;
 import day01.nguyendpt.chidstudy.service.PlayerService;
 
@@ -54,7 +55,6 @@ public class PlayActivity extends AppCompatActivity {
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
-        imageView.setAnimation(shake);
 
 
         button1 = findViewById(R.id.btnAnswer1);
@@ -107,9 +107,8 @@ public class PlayActivity extends AppCompatActivity {
                             });
                         }
                     }, 500);
-                    imageResult.startAnimation(shakeKitty);
                     try {
-                        Thread.sleep(500);
+                        Thread.sleep(1000);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -117,6 +116,17 @@ public class PlayActivity extends AppCompatActivity {
                 }
             }
         }).start();
+        
+        imageView.setAnimation(shakeKitty);
+        imageResult.setAnimation(shakeKitty);
+
+        final CoustomTextView txtCategory = findViewById(R.id.txtCategory);
+        txtCategory.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                txtCategory.animate().scaleX(1.0f).scaleY(1.0f).setDuration(600);
+            }
+        });
 
     }
 

@@ -14,6 +14,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import day01.nguyendpt.chidstudy.service.PlayerService;
@@ -21,19 +22,30 @@ import day01.nguyendpt.chidstudy.service.PlayerService;
 public class ChooseTopicActivity extends AppCompatActivity {
 
     private ImageView ivChooseTopic;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_topic);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
         final Animation kitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
 
+        final TextView txtTitleChooseTopic = findViewById(R.id.txtTitleChooseTopic);
         final Button btnAnimal = findViewById(R.id.btnAnimal);
         final Button btnThins = findViewById(R.id.btnThings);
         final Button btnNature = findViewById(R.id.btnNature);
+        final LinearLayout btnChangeName = findViewById(R.id.btnChangeName);
         ivChooseTopic = findViewById(R.id.ivChooseTopicIcon);
+
+
+        txtTitleChooseTopic.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                txtTitleChooseTopic.animate().scaleX(1.0f).scaleY(1.0f).setDuration(600);
+            }
+        });
 
         new Thread(new Runnable() {
             @Override
@@ -42,6 +54,12 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                         @Override
                         public void run() {
+                            btnChangeName.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    btnChangeName.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
+                                }
+                            });
                             btnAnimal.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).setListener(new AnimatorListenerAdapter() {
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
@@ -60,8 +78,10 @@ public class ChooseTopicActivity extends AppCompatActivity {
                                     btnNature.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200);
                                 }
                             });
-                        }}, 500);
+                        }
+                    }, 500);
 
+                    btnChangeName.startAnimation(kitty);
                     btnAnimal.startAnimation(shake);
                     btnThins.startAnimation(shake);
                     btnNature.startAnimation(shake);
@@ -71,6 +91,7 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
+                    btnChangeName.clearAnimation();
                     btnAnimal.clearAnimation();
                     btnThins.clearAnimation();
                     btnNature.clearAnimation();
@@ -84,27 +105,27 @@ public class ChooseTopicActivity extends AppCompatActivity {
         }).start();
 
 
-        TextView txtName= findViewById(R.id.txtName);
-        SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);
-        String playerName = sharedPreferences.getString("edtPlayerName","");
+        TextView txtName = findViewById(R.id.txtName);
+        SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences", MODE_PRIVATE);
+        String playerName = sharedPreferences.getString("edtPlayerName", "");
         txtName.setText(playerName);
     }
 
     public void clickToChooseAnimalTopic(View view) {
         Intent intent = new Intent(this, PlayActivity.class);
-        intent.putExtra("topic","animal");
+        intent.putExtra("topic", "animal");
         startActivity(intent);
     }
 
     public void clickToChooseNatureTopic(View view) {
         Intent intent = new Intent(this, PlayActivity.class);
-        intent.putExtra("topic","nature");
+        intent.putExtra("topic", "nature");
         startActivity(intent);
     }
 
     public void clickToChooseThingTopic(View view) {
         Intent intent = new Intent(this, PlayActivity.class);
-        intent.putExtra("topic","thing");
+        intent.putExtra("topic", "thing");
         startActivity(intent);
     }
 
@@ -118,5 +139,10 @@ public class ChooseTopicActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         PlayerService.player.start();
+    }
+
+    public void clickToChangeName(View view) {
+        Intent intent = new Intent(this, EnterNameActivity.class);
+        startActivity(intent);
     }
 }

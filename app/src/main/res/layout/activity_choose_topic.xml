@@ -11,6 +11,26 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:id="@+id/btnChangeName">
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape_circle"
+            android:onClick="clickToChangeName"
+            android:drawableLeft="@drawable/pencil_icon_change_name"
+            android:paddingRight="20dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_horizontal"
@@ -38,6 +58,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/txtTitleChooseTopic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bạn hãy chọn chủ đề để bắt đầu"

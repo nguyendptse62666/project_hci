@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
+import day01.nguyendpt.chidstudy.CustomControl.CoustomTextView;
 import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class ResultActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
@@ -109,6 +110,22 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
                 }
             }
         }).start();
+
+        final CoustomTextView txtCategory = findViewById(R.id.txtCategory);
+        txtCategory.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                txtCategory.animate().scaleX(1.0f).scaleY(1.0f).setDuration(600);
+            }
+        });
+
+        final CoustomTextView txtVIetName= findViewById(R.id.txtVietName);
+        txtVIetName.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                txtVIetName.animate().scaleX(1.0f).scaleY(1.0f).setDuration(600);
+            }
+        });
 
     }
 
