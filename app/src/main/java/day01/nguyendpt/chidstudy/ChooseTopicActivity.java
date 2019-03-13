@@ -104,17 +104,17 @@ public class ChooseTopicActivity extends AppCompatActivity {
 
     }
 
-    private void clickToChooseAnimalTopic(View view) {
+    public void clickToChooseAnimalTopic(View view) {
         String topic = "animal";
         controlAction(topic);
     }
 
-    private void clickToChooseNatureTopic(View view) {
+    public void clickToChooseNatureTopic(View view) {
         String topic = "nature";
         controlAction(topic);
     }
 
-    private void clickToChooseThingTopic(View view) {
+    public void clickToChooseThingTopic(View view) {
         String topic = "thing";
         controlAction(topic);
     }
