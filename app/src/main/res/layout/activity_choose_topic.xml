@@ -76,7 +76,7 @@
             android:onClick="clickToChooseAnimalTopic"
             android:text="Con vật (Animals)"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:drawableRight="@drawable/button_icon_animal"
+            android:drawableRight="@drawable/button_icon_dog"
             android:paddingRight="15dp"
             />
 
