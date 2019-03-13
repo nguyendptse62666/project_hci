@@ -41,7 +41,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         Intent intent = getIntent();
 
         try {
-            Thread.sleep(1500);
+            Thread.sleep(400);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -162,6 +162,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     public void clickToSpeech(View view) {
         Button button = (Button) view;
         PlayerService.player.pause();
+        setVolumeControlStream(100);
         tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
         try {
             Thread.sleep(1000);

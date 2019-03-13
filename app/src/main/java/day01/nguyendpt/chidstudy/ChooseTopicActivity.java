@@ -36,7 +36,6 @@ public class ChooseTopicActivity extends AppCompatActivity {
         final Button btnAnimal = findViewById(R.id.btnAnimal);
         final Button btnThins = findViewById(R.id.btnThings);
         final Button btnNature = findViewById(R.id.btnNature);
-        final LinearLayout btnChangeName = findViewById(R.id.btnChangeName);
         ivChooseTopic = findViewById(R.id.ivChooseTopicIcon);
 
 

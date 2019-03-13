@@ -52,7 +52,6 @@ public class PlayActivity extends AppCompatActivity {
         txtCategory = findViewById(R.id.txtCategory);
         txtCategory.setText("Chủ đề: "+ getCategory(objectPlay.getCategory()));
 
-        final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
         imageView = findViewById(R.id.imageQuestion);
         imageView.setImageResource(objectPlay.getImage());
 
@@ -182,6 +181,7 @@ public class PlayActivity extends AppCompatActivity {
         if(answer.equalsIgnoreCase(objectPlay.getEngName())){
             submitRightAnswer();
         } else {
+            view.setVisibility(View.INVISIBLE);
             submitWrongAnswer();
         }
     }
