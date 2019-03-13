@@ -20,15 +20,7 @@
             android:layout_height="50dp"
             android:gravity="center"
             android:layout_gravity="center"
-<<<<<<< HEAD
-<<<<<<< HEAD
             android:paddingLeft="13dp"
-=======
-            android:paddingLeft="10dp"
->>>>>>> 86c68ef07d9c6add1d36361309a7dc6943fd0e97
-=======
-            android:paddingLeft="10dp"
->>>>>>> 86c68ef07d9c6add1d36361309a7dc6943fd0e97
             android:layout_marginRight="10dp"
             android:background="@drawable/button_shape_circle"
             android:onClick="clickToChangeName"
@@ -83,20 +75,10 @@
             android:background="@drawable/button_shape_animal"
             android:onClick="clickToChooseAnimalTopic"
             android:text="Con vật (Animals)"
-<<<<<<< HEAD
-<<<<<<< HEAD
             android:textSize="22dp"
             android:fontFamily="@font/cupcake"
             android:drawableRight="@drawable/button_icon_dog"
-            android:paddingRight="16dp"
-=======
-=======
->>>>>>> 86c68ef07d9c6add1d36361309a7dc6943fd0e97
-            android:fontFamily="@font/montserrat_semi_bold"
-            android:drawableRight="@drawable/button_icon_dog"
-            android:paddingRight="15dp"
->>>>>>> 86c68ef07d9c6add1d36361309a7dc6943fd0e97
-            />
+            android:paddingRight="16dp"/>
 
         <Button
             android:id="@+id/btnThings"
@@ -108,7 +90,7 @@
             android:text="Đồ vật (Things)"
             android:textSize="22dp"
             android:fontFamily="@font/cupcake"
-            android:drawableRight="@drawable/button_icon_ball"
+            android:drawableRight="@drawable/button_icon_animal"
             android:paddingRight="15dp"/>
 
         <Button
