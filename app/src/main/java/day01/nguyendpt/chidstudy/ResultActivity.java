@@ -45,6 +45,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         objectPlay = (ObjectPlay) intent.getSerializableExtra("objectPlay");
         recentName = intent.getStringExtra("recentName");
         action = intent.getStringExtra("action");
