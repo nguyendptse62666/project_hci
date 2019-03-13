@@ -22,9 +22,16 @@ import day01.nguyendpt.chidstudy.service.PlayerService;
 public class ChooseTopicActivity extends AppCompatActivity {
 
     private ImageView ivChooseTopic;
+    private String action;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Intent intent = getIntent();
+        if(intent.hasExtra("action")){
+            action = intent.getStringExtra("action");
+        } else {
+            action = "learn";
+        }
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_topic);
@@ -95,31 +102,35 @@ public class ChooseTopicActivity extends AppCompatActivity {
             }
         }).start();
 
-
-        TextView txtName = findViewById(R.id.txtName);
-        SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences", MODE_PRIVATE);
-        String playerName = sharedPreferences.getString("edtPlayerName", "");
-        txtName.setText(playerName);
     }
 
-    public void clickToChooseAnimalTopic(View view) {
-        Intent intent = new Intent(this, PlayActivity.class);
-        intent.putExtra("topic", "animal");
-        startActivity(intent);
+    private void clickToChooseAnimalTopic(View view) {
+        String topic = "animal";
+        controlAction(topic);
     }
 
-    public void clickToChooseNatureTopic(View view) {
-        Intent intent = new Intent(this, PlayActivity.class);
-        intent.putExtra("topic", "nature");
-        startActivity(intent);
+    private void clickToChooseNatureTopic(View view) {
+        String topic = "nature";
+        controlAction(topic);
     }
 
-    public void clickToChooseThingTopic(View view) {
-        Intent intent = new Intent(this, PlayActivity.class);
-        intent.putExtra("topic", "thing");
-        startActivity(intent);
+    private void clickToChooseThingTopic(View view) {
+        String topic = "thing";
+        controlAction(topic);
     }
 
+    private void controlAction(String topic){
+        if(action.equals("learn")){
+            Intent intent = new Intent(this, LearnActivity.class);
+            intent.putExtra("topic", topic);
+            startActivity(intent);
+        } else if(action.equals("play")){
+            Intent intent = new Intent(this, PlayActivity.class);
+            intent.putExtra("topic", topic);
+            startActivity(intent);
+        }
+
+    }
     @Override
     protected void onPause() {
         super.onPause();
@@ -132,8 +143,9 @@ public class ChooseTopicActivity extends AppCompatActivity {
         PlayerService.player.start();
     }
 
-    public void clickToChangeName(View view) {
-        Intent intent = new Intent(this, EnterNameActivity.class);
+
+    public void clickToGoHome(View view) {
+        Intent intent = new Intent(this, ChooseActionActivity.class);
         startActivity(intent);
     }
 }
