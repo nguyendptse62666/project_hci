@@ -3,9 +3,11 @@ package day01.nguyendpt.chidstudy;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.os.Looper;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,7 +32,6 @@ public class PlayActivity extends AppCompatActivity {
     private TextView txtCategory;
     private ImageView imageView;
     private Button button1, button2, button3, button4;
-    private ImageView imageResult;
     private int backgroundResource;
 
     @Override
@@ -68,7 +69,6 @@ public class PlayActivity extends AppCompatActivity {
         button4 = findViewById(R.id.btnAnswer4);
         button4.setText(objectPlay.getAnswers()[3]);
 
-        imageResult = findViewById(R.id.imageResult);
 
         controlTopic(topic, objectPlay);
 
@@ -117,7 +117,6 @@ public class PlayActivity extends AppCompatActivity {
         }).start();
 
         imageView.setAnimation(shakeKitty);
-        imageResult.setAnimation(shakeKitty);
 
         final CoustomTextView txtCategory = findViewById(R.id.txtCategory);
         txtCategory.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
@@ -179,15 +178,16 @@ public class PlayActivity extends AppCompatActivity {
         Button button = (Button) view;
         String answer = button.getText().toString();
         if(answer.equalsIgnoreCase(objectPlay.getEngName())){
+            button.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.correct_icon, 0);
             submitRightAnswer();
         } else {
-            view.setVisibility(View.INVISIBLE);
+            button.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.wrong_icon, 0);
+            button.setEnabled(false);
             submitWrongAnswer();
         }
     }
 
     public void submitRightAnswer(){
-        imageResult.setImageResource(R.drawable.right_kitty);
         PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.right_answer);
         Intent service = new Intent(getApplicationContext(), PlayerService.class);
         startService(service);
@@ -201,7 +201,6 @@ public class PlayActivity extends AppCompatActivity {
 
 
     public void submitWrongAnswer(){
-        imageResult.setImageResource(R.drawable.wrong_kitty);
         PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.wrong_answer);
         Intent service = new Intent(getApplicationContext(), PlayerService.class);
         startService(service);
@@ -213,7 +212,6 @@ public class PlayActivity extends AppCompatActivity {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                imageResult.setImageResource(0);
             }
         }, 1);
     }

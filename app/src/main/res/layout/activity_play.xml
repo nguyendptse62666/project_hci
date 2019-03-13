@@ -56,7 +56,7 @@
             android:gravity="center"
             android:layout_marginTop="10dp">
             <Button
-                android:layout_width="140dp"
+                android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:textSize="18dp"
                 android:text="Answer 1"
@@ -72,7 +72,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="10dp"/>
             <Button
-                android:layout_width="140dp"
+                android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:textSize="18dp"
                 android:text="Answer 2"
@@ -95,7 +95,7 @@
             android:orientation="horizontal"
             android:gravity="center">
             <Button
-                android:layout_width="140dp"
+                android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:textSize="18dp"
                 android:text="Answer 3"
@@ -111,7 +111,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="10dp"/>
             <Button
-                android:layout_width="140dp"
+                android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:textSize="18dp"
                 android:text="Answer 4"
