@@ -9,6 +9,7 @@
     android:orientation="vertical"
     android:background="@drawable/blue_cloud_1">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +24,7 @@
             android:paddingLeft="13dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/button_shape_circle"
-            android:onClick="clickToChangeName"
+            android:onClick="clickToGoHome"
             android:drawableLeft="@drawable/pencil_icon_change_name"
             android:paddingRight="20dp"/>
     </LinearLayout>
@@ -34,27 +35,7 @@
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:paddingTop="50dp">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/cupcake"
-                android:text="Xin chào, "
-                android:textSize="30dp"
-                android:layout_marginRight="5dp"/>
-
-            <TextView
-                android:id="@+id/txtName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/cupcake"
-                android:textSize="40dp"/>
-        </LinearLayout>
 
         <TextView
             android:id="@+id/txtTitleChooseTopic"
