@@ -93,7 +93,7 @@
 =======
 >>>>>>> 86c68ef07d9c6add1d36361309a7dc6943fd0e97
             android:fontFamily="@font/montserrat_semi_bold"
-            android:drawableRight="@drawable/button_icon_animal"
+            android:drawableRight="@drawable/button_icon_dog"
             android:paddingRight="15dp"
 >>>>>>> 86c68ef07d9c6add1d36361309a7dc6943fd0e97
             />
