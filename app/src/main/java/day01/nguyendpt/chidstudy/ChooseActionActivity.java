@@ -67,6 +67,8 @@ public class ChooseActionActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EnterNameActivity.class);
         startActivity(intent);
     }
+
+    @Override
 	@Override 
     protected void onPause() {
         super.onPause();
