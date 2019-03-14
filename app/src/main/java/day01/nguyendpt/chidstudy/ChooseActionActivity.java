@@ -2,6 +2,8 @@ package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,26 +31,73 @@ public class ChooseActionActivity extends AppCompatActivity {
         final LinearLayout btnStudy = findViewById(R.id.btnStudy);
         final LinearLayout btnPlay = findViewById(R.id.btnPlay);
 
-        double distance = 100; //the distance to move in pixels
-        long duration = 500; //the duration of the animation in ms
 
-        double direction = (Math.random() * 2 * Math.PI);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Animation shakePlay = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fly_animation);
+                btnPlay.setAnimation(shakePlay);
+                while (true) {
+                    new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            double distance = 100; //the distance to move in pixels
+                            long duration = 2000; //the duration of the animation in ms
 
-        float translationX = (float) (Math.cos(direction) * distance);
-        float translationY = (float) (Math.sin(direction) * distance);
+                            double direction = (Math.random() * 2 * Math.PI);
 
-        btnPlay.animate().translationX(translationX).translationY(translationY).setDuration(duration).start();
+                            float translationX = (float) (Math.cos(direction) * distance);
+                            float translationY = (float) (Math.sin(direction) * distance);
+                            btnPlay.animate().translationX(translationX).translationY(translationY).setDuration(duration).start();
+                        }
+                    }, 1);
+                    try {
+                        Thread.sleep(1500);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
 
-        Animation shakePlay = AnimationUtils.loadAnimation(this, R.anim.fly_animation);
         try {
-            Thread.sleep(700);
+            Thread.sleep(650);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Animation shakeStudy = AnimationUtils.loadAnimation(this, R.anim.fly_animation);
 
-        btnPlay.setAnimation(shakePlay);
-        btnStudy.setAnimation(shakeStudy);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Animation shakeStudy = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fly_animation);
+                btnStudy.setAnimation(shakeStudy);
+                while (true) {
+                    new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            double distance = 100; //the distance to move in pixels
+                            long duration = 2000; //the duration of the animation in ms
+
+                            double direction = (Math.random() * 2 * Math.PI);
+
+                            float translationX = (float) (Math.cos(direction) * distance);
+                            float translationY = (float) (Math.sin(direction) * distance);
+                            btnStudy.animate().translationX(translationX).translationY(translationY).setDuration(duration).start();
+                        }
+                    }, 1);
+                    try {
+                        Thread.sleep(1500);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
+
+
+
+
+
     }
 
     public void clickToStudy(View view) {
@@ -68,7 +117,7 @@ public class ChooseActionActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-	@Override 
+    @Override
     protected void onPause() {
         super.onPause();
         PlayerService.player.pause();
