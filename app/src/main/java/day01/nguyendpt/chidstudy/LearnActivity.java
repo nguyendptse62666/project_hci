@@ -21,17 +21,19 @@ import android.widget.TextView;
 import java.util.Locale;
 
 import day01.nguyendpt.chidstudy.CustomControl.CoustomTextView;
+import day01.nguyendpt.chidstudy.service.DingService;
 import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnInitListener{
 
-    private String recentName, action;
+    private String recentName, action, topic;
     private ObjectPlay objectPlay;
     private TextView txtCategory, txtVietName;
     private Button buttonSpeech;
     private ImageView imageView;
     private TextToSpeech tts;
     private int backgroundResource;
+    private GeneratorDataClass generatorDataClass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,10 +42,20 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         setContentView(R.layout.activity_learn);
         Intent intent = getIntent();
 
-        objectPlay = (ObjectPlay) intent.getSerializableExtra("objectPlay");
-        recentName = intent.getStringExtra("recentName");
+        topic = intent.getStringExtra("topic");
+
+
+
+        if(intent.hasExtra("recentName")){
+            recentName = intent.getStringExtra("recentName");
+        } else {
+            recentName = "";
+        }
         action = intent.getStringExtra("action");
-        backgroundResource = intent.getIntExtra("backgroundResource", R.drawable.blue_cloud_1);
+
+        generatorDataClass = new GeneratorDataClass();
+        objectPlay = generatorDataClass.getObjectPlay(topic, recentName);
+
         txtCategory = findViewById(R.id.txtCategory);
         txtCategory.setText("Chủ đề: " + getCategory(objectPlay.getCategory()));
 
@@ -58,8 +70,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
 
         tts = new TextToSpeech(this, this);
 
-        RelativeLayout layout = findViewById(R.id.layoutResult);
-        layout.setBackgroundResource(backgroundResource);
+
 
         final LinearLayout btnClickContinue = findViewById(R.id.btnClickContinue);
         final LinearLayout btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
@@ -130,6 +141,43 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
                 txtVIetName.animate().scaleX(1.0f).scaleY(1.0f).setDuration(600);
             }
         });
+
+        controlTopic(topic, objectPlay);
+    }
+
+    public void controlTopic(String topic, ObjectPlay objectPlay){
+
+        if( objectPlay.getNote() != null ){
+            if(objectPlay.getNote().equalsIgnoreCase("underwater")){
+                backgroundResource = R.drawable.underwater_background ;
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("darksky")){
+                backgroundResource = R.drawable.dark_sky_background;
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("school")){
+                backgroundResource = R.drawable.class_background;
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("traffic")){
+                backgroundResource = R.drawable.road_background;
+            }
+        } else {
+            switch (topic){
+                case "animal":
+                    backgroundResource = R.drawable.animal_background;
+                    break;
+                case "thing":
+                    backgroundResource = R.drawable.thing_background;
+                    break;
+                case "nature":
+                    backgroundResource = R.drawable.blue_cloud_1;
+                    break;
+            }
+        }
+        RelativeLayout linearLayout = findViewById(R.id.layoutLearn);
+        linearLayout.setBackgroundResource(backgroundResource);
+        Intent dingService = new Intent(getApplicationContext(), DingService.class);
+        startService(dingService);
+        
     }
 
     private String getCategory(String category) {
@@ -178,8 +226,8 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         Intent intent = new Intent(this, LearnActivity.class);
         intent.putExtra("topic", objectPlay.getCategory());
         intent.putExtra("recentName", recentName);
+        intent.putExtra("action", action);
         startActivity(intent);
-        finish();
     }
 
     public void clickToGoHome(View view) {
@@ -191,7 +239,6 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         Intent intent = new Intent(this, ChooseTopicActivity.class);
         intent.putExtra("action", action);
         startActivity(intent);
-        finish();
     }
 
     @Override

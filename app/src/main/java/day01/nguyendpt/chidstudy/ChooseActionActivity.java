@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import day01.nguyendpt.chidstudy.service.PlayerService;
+
 public class ChooseActionActivity extends AppCompatActivity {
 
     @Override
@@ -37,5 +39,17 @@ public class ChooseActionActivity extends AppCompatActivity {
     public void clickToChangeName(View view) {
         Intent intent = new Intent(this, EnterNameActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        PlayerService.player.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        PlayerService.player.start();
     }
 }

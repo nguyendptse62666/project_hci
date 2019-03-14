@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LearnActivity">
+    tools:context=".LearnActivity"
+    android:id="@+id/layoutLearn">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -125,7 +126,8 @@
                 android:background="@drawable/button_shape_circle"
                 android:onClick="clickToContinue"
                 android:drawableLeft="@drawable/next_arrow_icon"
-                android:paddingLeft="20dp"/>
+                android:paddingLeft="20dp"
+                android:id="@+id/btnSpeech"/>
         </LinearLayout>
 
         <LinearLayout
@@ -150,7 +152,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:paddingBottom="10dp"
-            android:id="@+id/btnGoHome">
+            android:id="@+id/btnClickGoHome">
             <Button
                 android:layout_width="70dp"
                 android:layout_height="70dp"
