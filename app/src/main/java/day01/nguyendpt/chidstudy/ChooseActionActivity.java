@@ -68,7 +68,6 @@ public class ChooseActionActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @Override
 	@Override 
     protected void onPause() {
         super.onPause();
