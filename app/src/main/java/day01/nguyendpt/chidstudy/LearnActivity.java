@@ -78,6 +78,15 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
         final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
 
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                setVolumeControlStream(100);
+                tts.speak(objectPlay.getEngName(), TextToSpeech.QUEUE_FLUSH, null);
+            }
+        }, 300);
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -142,14 +151,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
 
         controlTopic(topic, objectPlay);
 
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                setVolumeControlStream(100);
-                tts.speak(objectPlay.getEngName(), TextToSpeech.QUEUE_FLUSH, null);
-            }
-        }, 200);
+
 
     }
 

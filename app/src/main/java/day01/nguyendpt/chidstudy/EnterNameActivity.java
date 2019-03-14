@@ -42,7 +42,7 @@ public class EnterNameActivity extends AppCompatActivity {
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("edtPlayerName", name);
             editor.commit();
-            Intent intent = new Intent(this, ChooseTopicActivity.class);
+            Intent intent = new Intent(this, ChooseActionActivity.class);
             startActivity(intent);
             finish();
         }
