@@ -44,8 +44,6 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
 
         topic = intent.getStringExtra("topic");
 
-
-
         if(intent.hasExtra("recentName")){
             recentName = intent.getStringExtra("recentName");
         } else {
@@ -143,6 +141,16 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         });
 
         controlTopic(topic, objectPlay);
+
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                setVolumeControlStream(100);
+                tts.speak(objectPlay.getEngName(), TextToSpeech.QUEUE_FLUSH, null);
+            }
+        }, 200);
+
     }
 
     public void controlTopic(String topic, ObjectPlay objectPlay){
@@ -177,7 +185,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         linearLayout.setBackgroundResource(backgroundResource);
         Intent dingService = new Intent(getApplicationContext(), DingService.class);
         startService(dingService);
-        
+
     }
 
     private String getCategory(String category) {
@@ -215,7 +223,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         setVolumeControlStream(100);
         tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
         try {
-            Thread.sleep(1000);
+            Thread.sleep(800);
         } catch (Exception e) {
             e.printStackTrace();
         }
