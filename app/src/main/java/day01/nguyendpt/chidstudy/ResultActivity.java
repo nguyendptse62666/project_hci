@@ -75,6 +75,15 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
         final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
 
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                setVolumeControlStream(100);
+                tts.speak(objectPlay.getEngName(), TextToSpeech.QUEUE_FLUSH, null);
+            }
+        }, 300);
+        
         new Thread(new Runnable() {
             @Override
             public void run() {
