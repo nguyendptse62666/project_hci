@@ -122,10 +122,12 @@ public class ChooseTopicActivity extends AppCompatActivity {
     private void controlAction(String topic){
         if(action.equals("learn")){
             Intent intent = new Intent(this, LearnActivity.class);
+            intent.putExtra("action", action);
             intent.putExtra("topic", topic);
             startActivity(intent);
         } else if(action.equals("play")){
             Intent intent = new Intent(this, PlayActivity.class);
+            intent.putExtra("action", action);
             intent.putExtra("topic", topic);
             startActivity(intent);
         }

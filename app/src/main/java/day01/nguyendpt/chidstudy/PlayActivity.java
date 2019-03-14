@@ -26,7 +26,7 @@ import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class PlayActivity extends AppCompatActivity {
 
-    private String topic, recentName;
+    private String topic, recentName, action;
     private ObjectPlay objectPlay;
     private GeneratorDataClass generatorDataClass;
     private TextView txtCategory;
@@ -45,6 +45,9 @@ public class PlayActivity extends AppCompatActivity {
             recentName = intent.getStringExtra("recentName");
         } else {
             recentName = "";
+        }
+        if(intent.hasExtra("action")){
+            action = intent.getStringExtra("action");
         }
 
         generatorDataClass = new GeneratorDataClass();
@@ -196,6 +199,7 @@ public class PlayActivity extends AppCompatActivity {
         recentName = objectPlay.getEngName();
         intent.putExtra("backgroundResource", backgroundResource);
         intent.putExtra("recentName", recentName);
+        intent.putExtra("action", action);
         startActivity(intent);
     }
 

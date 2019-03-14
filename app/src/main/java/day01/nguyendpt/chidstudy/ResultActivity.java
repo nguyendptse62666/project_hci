@@ -25,7 +25,7 @@ import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class ResultActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
 
-    private String recentName;
+    private String recentName, action;
     private ObjectPlay objectPlay;
     private TextView txtCategory, txtVietName;
     private Button buttonSpeech;
@@ -45,8 +45,10 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         objectPlay = (ObjectPlay) intent.getSerializableExtra("objectPlay");
         recentName = intent.getStringExtra("recentName");
+        action = intent.getStringExtra("action");
         backgroundResource = intent.getIntExtra("backgroundResource", R.drawable.blue_cloud_1);
         txtCategory = findViewById(R.id.txtCategory);
         txtCategory.setText("Chủ đề: " + getCategory(objectPlay.getCategory()));
@@ -67,6 +69,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
         final LinearLayout btnClickContinue = findViewById(R.id.btnClickContinue);
         final LinearLayout btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
+        final LinearLayout btnClickGoHome = findViewById(R.id.btnClickGoHome);
         final ImageView imgKitty = findViewById(R.id.ImgKitty);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
@@ -89,6 +92,12 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
                                     btnClickNewTopic.animate().scaleX(1f).scaleY(1f).setDuration(300);
+                                }
+                            });
+                            btnClickGoHome.animate().scaleX(1.2f).scaleY(1.2f).setDuration(300).setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    btnClickGoHome.animate().scaleX(1f).scaleY(1f).setDuration(300);
                                 }
                             });
 
@@ -182,6 +191,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
     public void clickToChooseNewTopic(View view) {
         Intent intent = new Intent(this, ChooseTopicActivity.class);
+        intent.putExtra("action", action);
         startActivity(intent);
         finish();
     }
@@ -195,5 +205,10 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
     protected void onResume() {
         super.onResume();
         PlayerService.player.start();
+    }
+
+    public void clickToGoHome(View view) {
+        Intent intent = new Intent(this, ChooseActionActivity.class);
+        startActivity(intent);
     }
 }
