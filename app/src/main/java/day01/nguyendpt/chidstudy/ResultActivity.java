@@ -83,7 +83,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
                 tts.speak(objectPlay.getEngName(), TextToSpeech.QUEUE_FLUSH, null);
             }
         }, 300);
-        
+
         new Thread(new Runnable() {
             @Override
             public void run() {

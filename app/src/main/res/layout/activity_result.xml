@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnResult"
             android:onClick="clickToSpeech"
-            android:textColor="#DE7244"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="@font/cupcake"
             android:drawableRight="@drawable/button_icon_speaker"
             android:background="@drawable/button_shape_speak"
