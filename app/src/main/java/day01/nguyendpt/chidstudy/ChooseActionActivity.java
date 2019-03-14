@@ -22,17 +22,41 @@ public class ChooseActionActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences", MODE_PRIVATE);
         String playerName = sharedPreferences.getString("edtPlayerName", "Bạn nhỏ");
         txtName.setText(playerName);
+
+        final LinearLayout btnStudy = findViewById(R.id.btnStudy);
+        final LinearLayout btnPlay = findViewById(R.id.btnPlay);
+
+        double distance = 100; //the distance to move in pixels
+        long duration = 500; //the duration of the animation in ms
+
+        double direction = (Math.random() * 2 * Math.PI);
+
+        float translationX = (float) (Math.cos(direction) * distance);
+        float translationY = (float) (Math.sin(direction) * distance);
+
+        btnPlay.animate().translationX(translationX).translationY(translationY).setDuration(duration).start();
+
+        Animation shakePlay = AnimationUtils.loadAnimation(this, R.anim.fly_animation);
+        try {
+            Thread.sleep(700);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Animation shakeStudy = AnimationUtils.loadAnimation(this, R.anim.fly_animation);
+
+        btnPlay.setAnimation(shakePlay);
+        btnStudy.setAnimation(shakeStudy);
     }
 
     public void clickToStudy(View view) {
         Intent intent = new Intent(this, ChooseTopicActivity.class);
-        intent.putExtra("action","learn");
+        intent.putExtra("action", "learn");
         startActivity(intent);
     }
 
     public void clickToPlay(View view) {
         Intent intent = new Intent(this, ChooseTopicActivity.class);
-        intent.putExtra("action","play");
+        intent.putExtra("action", "play");
         startActivity(intent);
     }
 
@@ -42,6 +66,7 @@ public class ChooseActionActivity extends AppCompatActivity {
     }
 
     @Override
+	@Override 
     protected void onPause() {
         super.onPause();
         PlayerService.player.pause();

@@ -52,13 +52,18 @@
         android:orientation="vertical"
         android:paddingTop="200dp"
         android:paddingHorizontal="20dp"
+        android:id="@+id/btnStudy"
         >
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/air_balloon_icon_1"
             android:text="Học vui"
-            android:id="@+id/btnStudy"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:paddingBottom="30dp"
+            android:fontFamily="@font/cupcake"
+            android:textStyle="bold"
             android:onClick="clickToStudy"/>
     </LinearLayout>
 
@@ -69,14 +74,18 @@
         android:paddingTop="200dp"
         android:gravity="bottom"
         android:paddingBottom="100dp"
-        android:paddingHorizontal="20dp">
+        android:paddingHorizontal="20dp"
+        android:id="@+id/btnPlay">
         <Button
             android:layout_gravity="right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/air_balloon_icon_2"
             android:text="Chơi vui"
-            android:id="@+id/btnPlay"
+            android:textColor="@color/colorSkin"
+            android:textSize="20dp"
+            android:paddingBottom="30dp"
+            android:fontFamily="@font/cupcake"
             android:onClick="clickToPlay"
             />
     </LinearLayout>
