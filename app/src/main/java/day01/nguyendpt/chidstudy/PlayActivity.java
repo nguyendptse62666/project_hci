@@ -182,6 +182,9 @@ public class PlayActivity extends AppCompatActivity {
                     break;
                 case "nature":
                     backgroundResource = R.drawable.blue_cloud_1;
+                    PlayerService.player = MediaPlayer.create(this, R.raw.background);
+                    PlayerService.player.setLooping(true);
+                    PlayerService.player.start();
                     break;
             }
         }

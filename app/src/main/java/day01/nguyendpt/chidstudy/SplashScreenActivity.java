@@ -16,6 +16,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences",MODE_PRIVATE);
@@ -26,8 +27,6 @@ public class SplashScreenActivity extends AppCompatActivity {
                 } else {
                     intent = new Intent(getApplicationContext(), ChooseActionActivity.class);
                 }
-                Intent service = new Intent(getApplicationContext(), PlayerService.class);
-                startService(service);
                 startActivity(intent);
                 finish();
             }
