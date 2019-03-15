@@ -147,15 +147,24 @@ public class PlayActivity extends AppCompatActivity {
         if( objectPlay.getNote() != null ){
             if(objectPlay.getNote().equalsIgnoreCase("underwater")){
                 backgroundResource = R.drawable.underwater_background ;
+                PlayerService.player = MediaPlayer.create(this, R.raw.under_water);
+                Intent service = new Intent(getApplicationContext(), PlayerService.class);
+                startService(service);
             }
             if(objectPlay.getNote().equalsIgnoreCase("darksky")){
                 backgroundResource = R.drawable.dark_sky_background;
             }
             if(objectPlay.getNote().equalsIgnoreCase("school")){
                 backgroundResource = R.drawable.class_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                Intent service = new Intent(getApplicationContext(), PlayerService.class);
+                startService(service);
             }
             if(objectPlay.getNote().equalsIgnoreCase("traffic")){
                 backgroundResource = R.drawable.road_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                Intent service = new Intent(getApplicationContext(), PlayerService.class);
+                startService(service);
             }
         } else {
             switch (topic){
