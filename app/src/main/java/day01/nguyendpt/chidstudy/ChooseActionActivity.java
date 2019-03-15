@@ -2,6 +2,7 @@ package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
@@ -22,6 +23,10 @@ public class ChooseActionActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_action);
+
+        PlayerService.player = MediaPlayer.create(this, R.raw.background);
+        PlayerService.player.setLooping(true);
+        PlayerService.player.start();
 
         TextView txtName = findViewById(R.id.txtName);
         SharedPreferences sharedPreferences = getSharedPreferences("day01.nguyendpt.chidstudy_preferences", MODE_PRIVATE);

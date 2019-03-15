@@ -3,6 +3,7 @@ package day01.nguyendpt.chidstudy;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Handler;
 import android.os.Looper;
 import android.speech.tts.TextToSpeech;
@@ -163,20 +164,35 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         if( objectPlay.getNote() != null ){
             if(objectPlay.getNote().equalsIgnoreCase("underwater")){
                 backgroundResource = R.drawable.underwater_background ;
+                PlayerService.player = MediaPlayer.create(this, R.raw.under_water);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
             if(objectPlay.getNote().equalsIgnoreCase("darksky")){
                 backgroundResource = R.drawable.dark_sky_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.little_star);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
             if(objectPlay.getNote().equalsIgnoreCase("school")){
                 backgroundResource = R.drawable.class_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
             if(objectPlay.getNote().equalsIgnoreCase("traffic")){
                 backgroundResource = R.drawable.road_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
         } else {
             switch (topic){
                 case "animal":
                     backgroundResource = R.drawable.animal_background;
+                    PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                    PlayerService.player.setLooping(true);
+                    PlayerService.player.start();
                     break;
                 case "thing":
                     backgroundResource = R.drawable.thing_background;
