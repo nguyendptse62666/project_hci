@@ -35,6 +35,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
     private int backgroundResource;
     private GeneratorDataClass generatorDataClass;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -132,6 +133,8 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
                 }
             }
         }).start();
+
+        imageView.setAnimation(shakeKitty);
 
         final CoustomTextView txtCategory = findViewById(R.id.txtCategory);
         txtCategory.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
