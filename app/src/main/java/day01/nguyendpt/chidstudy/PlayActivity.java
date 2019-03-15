@@ -232,4 +232,8 @@ public class PlayActivity extends AppCompatActivity {
         PlayerService.player.start();
     }
 
+    public void clickToGoHome(View view) {
+        Intent intent = new Intent(this, ChooseActionActivity.class);
+        startActivity(intent);
+    }
 }

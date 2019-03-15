@@ -10,10 +10,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingTop="10dp">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="11dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape_circle"
+            android:onClick="clickToGoHome"
+            android:drawableLeft="@drawable/home_icon_24"
+            android:paddingRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <day01.nguyendpt.chidstudy.CustomControl.CoustomTextView
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="50dp"
             android:layout_marginHorizontal="40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
