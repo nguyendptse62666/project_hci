@@ -173,6 +173,9 @@ public class PlayActivity extends AppCompatActivity {
             switch (topic){
                 case "animal":
                     backgroundResource = R.drawable.animal_background;
+                    PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                    PlayerService.player.setLooping(true);
+                    PlayerService.player.start();
                     break;
                 case "thing":
                     backgroundResource = R.drawable.thing_background;

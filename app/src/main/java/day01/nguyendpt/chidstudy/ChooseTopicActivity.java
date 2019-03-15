@@ -33,14 +33,14 @@ public class ChooseTopicActivity extends AppCompatActivity {
         } else {
             action = "learn";
         }
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_choose_topic);
+
 
         PlayerService.player = MediaPlayer.create(this, R.raw.background);
         PlayerService.player.setLooping(true);
         PlayerService.player.start();
-
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choose_topic);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
         final Animation kitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
