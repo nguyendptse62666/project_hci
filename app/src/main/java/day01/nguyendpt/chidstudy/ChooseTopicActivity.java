@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
@@ -35,6 +36,11 @@ public class ChooseTopicActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_topic);
+
+
+        PlayerService.player = MediaPlayer.create(this, R.raw.background);
+        PlayerService.player.setLooping(true);
+        PlayerService.player.start();
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation);
         final Animation kitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);

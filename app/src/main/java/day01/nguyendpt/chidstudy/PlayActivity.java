@@ -147,26 +147,44 @@ public class PlayActivity extends AppCompatActivity {
         if( objectPlay.getNote() != null ){
             if(objectPlay.getNote().equalsIgnoreCase("underwater")){
                 backgroundResource = R.drawable.underwater_background ;
+                PlayerService.player = MediaPlayer.create(this, R.raw.under_water);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
             if(objectPlay.getNote().equalsIgnoreCase("darksky")){
                 backgroundResource = R.drawable.dark_sky_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.little_star);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
             if(objectPlay.getNote().equalsIgnoreCase("school")){
                 backgroundResource = R.drawable.class_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
             if(objectPlay.getNote().equalsIgnoreCase("traffic")){
                 backgroundResource = R.drawable.road_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
             }
         } else {
             switch (topic){
                 case "animal":
                     backgroundResource = R.drawable.animal_background;
+                    PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                    PlayerService.player.setLooping(true);
+                    PlayerService.player.start();
                     break;
                 case "thing":
                     backgroundResource = R.drawable.thing_background;
                     break;
                 case "nature":
                     backgroundResource = R.drawable.blue_cloud_1;
+                    PlayerService.player = MediaPlayer.create(this, R.raw.background);
+                    PlayerService.player.setLooping(true);
+                    PlayerService.player.start();
                     break;
             }
         }
