@@ -2,6 +2,7 @@ package day01.nguyendpt.chidstudy;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -27,6 +28,8 @@ public class SplashScreenActivity extends AppCompatActivity {
                 } else {
                     intent = new Intent(getApplicationContext(), ChooseActionActivity.class);
                 }
+                PlayerService.player = MediaPlayer.create(getApplicationContext(), R.raw.background);
+                PlayerService.player.setLooping(true);
                 startActivity(intent);
                 finish();
             }
