@@ -79,6 +79,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
         final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
+        final Animation shakeImage = AnimationUtils.loadAnimation(this, R.anim.image_question_animation);
 
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -127,7 +128,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
                     buttonSpeech.clearAnimation();
                     imgKitty.clearAnimation();
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(800);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -135,7 +136,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
             }
         }).start();
 
-        imageView.setAnimation(shakeKitty);
+        imageView.setAnimation(shakeImage);
 
         final CoustomTextView txtCategory = findViewById(R.id.txtCategory);
         txtCategory.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
@@ -154,8 +155,6 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         });
 
         controlTopic(topic, objectPlay);
-
-
 
     }
 
