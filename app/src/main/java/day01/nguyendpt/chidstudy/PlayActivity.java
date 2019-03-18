@@ -23,6 +23,7 @@ import android.widget.TextView;
 import day01.nguyendpt.chidstudy.CustomControl.CoustomTextView;
 import day01.nguyendpt.chidstudy.service.DingService;
 import day01.nguyendpt.chidstudy.service.PlayerService;
+import day01.nguyendpt.chidstudy.service.RightWrongPlayService;
 
 public class PlayActivity extends AppCompatActivity {
 
@@ -236,8 +237,8 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void submitRightAnswer(){
-        PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.right_answer);
-        Intent service = new Intent(getApplicationContext(), PlayerService.class);
+        RightWrongPlayService.rightWrongPlayer = MediaPlayer.create(this, R.raw.right_answer);
+        Intent service = new Intent(getApplicationContext(), RightWrongPlayService.class);
         startService(service);
         Intent intent = new Intent(PlayActivity.this, ResultActivity.class);
         intent.putExtra("objectPlay", objectPlay);
@@ -250,8 +251,8 @@ public class PlayActivity extends AppCompatActivity {
 
 
     public void submitWrongAnswer(){
-        PlayerService.rightWrongPlayer = MediaPlayer.create(this, R.raw.wrong_answer);
-        Intent service = new Intent(getApplicationContext(), PlayerService.class);
+        RightWrongPlayService.rightWrongPlayer = MediaPlayer.create(this, R.raw.wrong_answer);
+        Intent service = new Intent(getApplicationContext(), RightWrongPlayService.class);
         startService(service);
         new Handler().postDelayed(new Runnable() {
             @Override

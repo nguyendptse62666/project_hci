@@ -4,31 +4,25 @@ import android.app.Service;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.IBinder;
-import android.provider.MediaStore;
-import android.provider.Settings;
-import android.support.annotation.Nullable;
 
-import day01.nguyendpt.chidstudy.R;
+public class RightWrongPlayService extends Service {
+    public static MediaPlayer rightWrongPlayer;
+    public RightWrongPlayService() {
+    }
 
-public class PlayerService extends Service {
-    public static MediaPlayer player;
-
-
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
+        // TODO: Return the communication channel to the service.
         return null;
     }
 
     @Override
     public void onCreate() {
         super.onCreate();
-        player = MediaPlayer.create(this, R.raw.background);
-        player.setLooping(true);
-        player.setVolume(0.6f,0.6f);
-        player.start();
-
-
+        if (rightWrongPlayer != null) {
+            rightWrongPlayer.setVolume(100, 100);
+            rightWrongPlayer.start();
+        }
     }
 
     @Override
@@ -36,26 +30,25 @@ public class PlayerService extends Service {
         super.onStart(intent, startId);
     }
 
-
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        player.start();
-
+        if (rightWrongPlayer != null) {
+            rightWrongPlayer.start();
+        }
         return START_STICKY;
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        player.stop();
-        player.release();
-
+        if (rightWrongPlayer != null) {
+            rightWrongPlayer.stop();
+            rightWrongPlayer.release();
+        }
     }
 
     @Override
     public boolean onUnbind(Intent intent) {
         return super.onUnbind(intent);
     }
-
-
 }
