@@ -46,6 +46,23 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
             e.printStackTrace();
         }
 
+        ImageView imageQuestion = findViewById(R.id.imageQuestion);
+        imageQuestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Button button = (Button) v;
+                PlayerService.player.pause();
+                setVolumeControlStream(100);
+                tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                PlayerService.player.start();
+            }
+        });
+
         objectPlay = (ObjectPlay) intent.getSerializableExtra("objectPlay");
         recentName = intent.getStringExtra("recentName");
         action = intent.getStringExtra("action");

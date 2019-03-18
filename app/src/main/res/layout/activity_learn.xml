@@ -93,16 +93,7 @@
         android:orientation="vertical"
         android:paddingBottom="70dp">
 
-        <ImageView
-            android:id="@+id/ImgKitty"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginVertical="10dp"
-            android:layout_marginLeft="30dp"
-            android:src="@drawable/listen_kitty"
 
-            />
     </LinearLayout>
 
     <LinearLayout

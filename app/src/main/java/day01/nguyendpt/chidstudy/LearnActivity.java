@@ -44,6 +44,23 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         setContentView(R.layout.activity_learn);
         Intent intent = getIntent();
 
+        ImageView imageQuestion = findViewById(R.id.imageQuestion);
+        imageQuestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Button button = (Button) v;
+                PlayerService.player.pause();
+                setVolumeControlStream(100);
+                tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                PlayerService.player.start();
+            }
+        });
+
         topic = intent.getStringExtra("topic");
 
         if(intent.hasExtra("recentName")){
