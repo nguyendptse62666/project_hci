@@ -28,7 +28,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 } else {
                     intent = new Intent(getApplicationContext(), ChooseActionActivity.class);
                 }
-                PlayerService.player = MediaPlayer.create(getApplicationContext(), R.raw.background);
+                PlayerService.player = MediaPlayer.create(getApplicationContext(), R.raw.little_star);
                 PlayerService.player.setLooping(true);
                 startActivity(intent);
                 finish();

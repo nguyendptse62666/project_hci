@@ -92,7 +92,6 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         final LinearLayout btnClickContinue = findViewById(R.id.btnClickContinue);
         final LinearLayout btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
         final LinearLayout btnClickGoHome = findViewById(R.id.btnClickGoHome);
-        final ImageView imgKitty = findViewById(R.id.ImgKitty);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
         final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
@@ -136,14 +135,12 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
                         }}, 300);
 
                     buttonSpeech.startAnimation(shake);
-                    imgKitty.startAnimation(shakeKitty);
                     try {
                         Thread.sleep(1000);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
                     buttonSpeech.clearAnimation();
-                    imgKitty.clearAnimation();
                     try {
                         Thread.sleep(800);
                     } catch (Exception e) {
@@ -215,7 +212,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
                     break;
                 case "nature":
                     backgroundResource = R.drawable.blue_cloud_1;
-                    PlayerService.player = MediaPlayer.create(this, R.raw.background);
+                    PlayerService.player = MediaPlayer.create(this, R.raw.little_star);
                     PlayerService.player.setLooping(true);
                     PlayerService.player.start();
                     break;

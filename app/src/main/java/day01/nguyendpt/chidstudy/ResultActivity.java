@@ -87,7 +87,6 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         final LinearLayout btnClickContinue = findViewById(R.id.btnClickContinue);
         final LinearLayout btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
         final LinearLayout btnClickGoHome = findViewById(R.id.btnClickGoHome);
-        final ImageView imgKitty = findViewById(R.id.ImgKitty);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
         final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
@@ -130,14 +129,12 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
                         }}, 300);
 
                     buttonSpeech.startAnimation(shake);
-                    imgKitty.startAnimation(shakeKitty);
                     try {
                         Thread.sleep(1000);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
                     buttonSpeech.clearAnimation();
-                    imgKitty.clearAnimation();
                     try {
                         Thread.sleep(1000);
                     } catch (Exception e) {

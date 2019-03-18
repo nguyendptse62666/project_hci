@@ -24,7 +24,7 @@ public class ChooseActionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_action);
 
-        PlayerService.player = MediaPlayer.create(this, R.raw.background);
+        PlayerService.player = MediaPlayer.create(this, R.raw.little_star);
         PlayerService.player.setLooping(true);
         PlayerService.player.start();
 

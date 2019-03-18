@@ -38,7 +38,7 @@ public class ChooseTopicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_choose_topic);
 
 
-        PlayerService.player = MediaPlayer.create(this, R.raw.background);
+        PlayerService.player = MediaPlayer.create(this, R.raw.little_star);
         PlayerService.player.setLooping(true);
         PlayerService.player.start();
 
@@ -49,7 +49,6 @@ public class ChooseTopicActivity extends AppCompatActivity {
         final Button btnAnimal = findViewById(R.id.btnAnimal);
         final Button btnThins = findViewById(R.id.btnThings);
         final Button btnNature = findViewById(R.id.btnNature);
-        ivChooseTopic = findViewById(R.id.ivChooseTopicIcon);
 
 
         txtTitleChooseTopic.animate().scaleX(1.2f).scaleY(1.2f).setDuration(800).setListener(new AnimatorListenerAdapter() {
