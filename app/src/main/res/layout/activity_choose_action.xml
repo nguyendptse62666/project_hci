@@ -61,10 +61,13 @@
             android:text="Học vui"
             android:textColor="@color/colorPrimary"
             android:textSize="30dp"
-            android:paddingBottom="32dp"
+            android:paddingBottom="60dp"
+            android:paddingTop="45dp"
             android:fontFamily="@font/cupcake"
             android:textStyle="bold"
-            android:onClick="clickToStudy"/>
+            android:onClick="clickToStudy"
+            android:drawableBottom="@drawable/creativity"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -84,9 +87,11 @@
             android:text="Đố vui"
             android:textColor="@color/colorSkin"
             android:textSize="27dp"
-            android:paddingBottom="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="80dp"
             android:fontFamily="@font/cupcake"
             android:onClick="clickToPlay"
+            android:drawableTop="@drawable/question"
             />
     </LinearLayout>
 </RelativeLayout>

@@ -137,20 +137,5 @@
                 android:paddingLeft="20dp"/>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="90dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:paddingBottom="10dp"
-            android:id="@+id/btnClickGoHome">
-            <Button
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:background="@drawable/button_shape_circle"
-                android:onClick="clickToGoHome"
-                android:drawableLeft="@drawable/home_icon"
-                android:paddingLeft="20dp"/>
-        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

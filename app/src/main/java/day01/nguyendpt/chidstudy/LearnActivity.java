@@ -91,10 +91,8 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
 
         final LinearLayout btnClickContinue = findViewById(R.id.btnClickContinue);
         final LinearLayout btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
-        final LinearLayout btnClickGoHome = findViewById(R.id.btnClickGoHome);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
-        final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
         final Animation shakeImage = AnimationUtils.loadAnimation(this, R.anim.image_question_animation);
 
         final Handler handler = new Handler();
@@ -123,12 +121,6 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
                                 @Override
                                 public void onAnimationEnd(Animator animation) {
                                     btnClickNewTopic.animate().scaleX(1f).scaleY(1f).setDuration(300);
-                                }
-                            });
-                            btnClickGoHome.animate().scaleX(1.2f).scaleY(1.2f).setDuration(300).setListener(new AnimatorListenerAdapter() {
-                                @Override
-                                public void onAnimationEnd(Animator animation) {
-                                    btnClickGoHome.animate().scaleX(1f).scaleY(1f).setDuration(300);
                                 }
                             });
 
@@ -195,6 +187,33 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
             }
             if(objectPlay.getNote().equalsIgnoreCase("traffic")){
                 backgroundResource = R.drawable.road_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("ocean")){
+                imageView.setImageResource(0);
+                backgroundResource = R.drawable.nature_ocean;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("snow")){
+                imageView.setImageResource(0);
+                backgroundResource = R.drawable.nature_snow;
+                PlayerService.player = MediaPlayer.create(this, R.raw.little_star);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("tree")){
+                backgroundResource = R.drawable.animal_background;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
+            }
+            if(objectPlay.getNote().equalsIgnoreCase("mountain")){
+                imageView.setImageResource(0);
+                backgroundResource = R.drawable.nature_mountain;
                 PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
                 PlayerService.player.setLooping(true);
                 PlayerService.player.start();
@@ -275,10 +294,6 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         startActivity(intent);
     }
 
-    public void clickToGoHome(View view) {
-        Intent intent = new Intent(this, ChooseActionActivity.class);
-        startActivity(intent);
-    }
 
     public void clickToChooseNewTopic(View view) {
         Intent intent = new Intent(this, ChooseTopicActivity.class);

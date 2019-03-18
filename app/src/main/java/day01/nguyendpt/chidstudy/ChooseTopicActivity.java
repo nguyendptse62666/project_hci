@@ -22,7 +22,6 @@ import day01.nguyendpt.chidstudy.service.PlayerService;
 
 public class ChooseTopicActivity extends AppCompatActivity {
 
-    private ImageView ivChooseTopic;
     private String action;
 
     @Override
@@ -89,7 +88,6 @@ public class ChooseTopicActivity extends AppCompatActivity {
                     btnAnimal.startAnimation(shake);
                     btnThins.startAnimation(shake);
                     btnNature.startAnimation(shake);
-                    ivChooseTopic.startAnimation(kitty);
                     try {
                         Thread.sleep(1000);
                     } catch (Exception e) {
