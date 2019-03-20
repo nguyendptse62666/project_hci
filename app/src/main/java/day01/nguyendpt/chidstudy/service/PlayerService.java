@@ -12,7 +12,7 @@ import day01.nguyendpt.chidstudy.R;
 
 public class PlayerService extends Service {
     public static MediaPlayer player;
-    public static MediaPlayer rightWrongPlayer;
+
 
     @Nullable
     @Override
@@ -23,14 +23,11 @@ public class PlayerService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        player = MediaPlayer.create(this, R.raw.little_star);
+        player = MediaPlayer.create(this, R.raw.background);
         player.setLooping(true);
-        player.setVolume(0.8f,0.8f);
+        player.setVolume(0.6f,0.6f);
         player.start();
-        if (rightWrongPlayer != null) {
-            rightWrongPlayer.setVolume(100, 100);
-            rightWrongPlayer.start();
-        }
+
 
     }
 
@@ -43,9 +40,7 @@ public class PlayerService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         player.start();
-        if (rightWrongPlayer != null) {
-            rightWrongPlayer.start();
-        }
+
         return START_STICKY;
     }
 
@@ -54,10 +49,7 @@ public class PlayerService extends Service {
         super.onDestroy();
         player.stop();
         player.release();
-        if (rightWrongPlayer != null) {
-            rightWrongPlayer.stop();
-            rightWrongPlayer.release();
-        }
+
     }
 
     @Override
