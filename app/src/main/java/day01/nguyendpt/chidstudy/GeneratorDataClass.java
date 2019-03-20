@@ -115,7 +115,7 @@ public class GeneratorDataClass {
 
         answer = new String[]{"Tree","Sky","Flower","Fruit"};
         list.add(new ObjectPlay(category, "Cái cây", "Tree", R.drawable.nature_tree, answer, "tree"));
-        list.add(new ObjectPlay(category, "Bầu trời", "Sky", R.drawable.nature_sky, answer));
+        list.add(new ObjectPlay(category, "Bầu trời", "Sky", R.drawable.nature_sky, answer, "sky"));
         list.add(new ObjectPlay(category, "Hoa", "Flower", R.drawable.nature_flower, answer, "tree"));
         list.add(new ObjectPlay(category, "Trái cây", "Fruit", R.drawable.nature_fruit, answer, "tree"));
         

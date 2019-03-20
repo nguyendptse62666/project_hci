@@ -197,6 +197,13 @@ public class PlayActivity extends AppCompatActivity {
                 PlayerService.player.setLooping(true);
                 PlayerService.player.start();
             }
+            if(objectPlay.getNote().equalsIgnoreCase("sky")){
+                imageView.setImageResource(0);
+                backgroundResource = R.drawable.nature_sky;
+                PlayerService.player = MediaPlayer.create(this, R.raw.bird_sing);
+                PlayerService.player.setLooping(true);
+                PlayerService.player.start();
+            }
         } else {
             switch (topic){
                 case "animal":

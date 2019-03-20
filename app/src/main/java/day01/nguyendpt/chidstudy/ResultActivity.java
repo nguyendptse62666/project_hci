@@ -71,7 +71,16 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         txtCategory.setText("Chủ đề: " + getCategory(objectPlay.getCategory()));
 
         imageView = findViewById(R.id.imageQuestion);
-        imageView.setImageResource(objectPlay.getImage());
+        if(objectPlay.getNote().equals("ocean")
+                ||objectPlay.getNote().equals("snow")
+                ||objectPlay.getNote().equals("mountain")
+                ||objectPlay.getNote().equals("sky")
+        ){
+            imageView.setImageResource(0);
+        } else {
+            imageView.setImageResource(objectPlay.getImage());
+        }
+
 
         buttonSpeech = findViewById(R.id.btnResult);
         buttonSpeech.setText(objectPlay.getEngName());
