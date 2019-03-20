@@ -50,7 +50,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
         imageQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Button button = (Button) v;
+                Button button = findViewById(R.id.btnResult);
                 PlayerService.player.pause();
                 setVolumeControlStream(100);
                 tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
@@ -86,10 +86,8 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
 
         final LinearLayout btnClickContinue = findViewById(R.id.btnClickContinue);
         final LinearLayout btnClickNewTopic = findViewById(R.id.btnClickNewTopic);
-        final LinearLayout btnClickGoHome = findViewById(R.id.btnClickGoHome);
 
         final Animation shake = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_speak);
-        final Animation shakeKitty = AnimationUtils.loadAnimation(this, R.anim.buttom_animation_kitty);
 
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -119,12 +117,7 @@ public class ResultActivity extends AppCompatActivity implements TextToSpeech.On
                                     btnClickNewTopic.animate().scaleX(1f).scaleY(1f).setDuration(300);
                                 }
                             });
-                            btnClickGoHome.animate().scaleX(1.2f).scaleY(1.2f).setDuration(300).setListener(new AnimatorListenerAdapter() {
-                                @Override
-                                public void onAnimationEnd(Animator animation) {
-                                    btnClickGoHome.animate().scaleX(1f).scaleY(1f).setDuration(300);
-                                }
-                            });
+
 
                         }}, 300);
 

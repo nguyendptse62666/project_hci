@@ -48,7 +48,7 @@ public class LearnActivity extends AppCompatActivity implements TextToSpeech.OnI
         imageQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Button button = (Button) v;
+                Button button = findViewById(R.id.btnResult);
                 PlayerService.player.pause();
                 setVolumeControlStream(100);
                 tts.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
